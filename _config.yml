@@ -12,7 +12,7 @@ introduction: What I cannot create, I do not understand
 author: BC Lin
 language: zh-tw
 timezone:
-default_cover: ./images/default_cover.png
+# default_cover: ./images/default_cover.png
 header_cover: ./other/banner-bg.jpg
 logo: 
 
@@ -89,13 +89,12 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: skapp
+theme: stun
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  # 下方的gh_token会被.travis.yml中sed命令替换
   repo: https://gh_token@github.com/ds934118/ds934118.github.io.git
   branch: master
 
