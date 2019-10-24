@@ -57,7 +57,8 @@ id: 1625
 - Micron MX200 500G + Toshiba 3TB 7200rpm 
 - NZXT H440
 - IKBC KD87 
-- Zowie EC1-B BenQ Zowie XL2430  
+- Zowie EC1-B 
+- BenQ Zowie XL2430  
 
 # 實驗室電腦： 
 - i5-8400 
