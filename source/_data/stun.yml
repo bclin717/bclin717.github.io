@@ -90,12 +90,12 @@ header:
   # Header navigation bar height (Support for all types of CSS size units).
   nav_height: 50px
   # Background image in the header.
-  bg_image: ./images/banner-bg.jpg
+  bg_image: 
     enable: true
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url: 
+    url: ./images/banner-bg.jpg
   # Mask effect of the background image.
   mask:
     enable: false
