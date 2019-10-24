@@ -92,7 +92,9 @@ theme: hexo-theme-skapp
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy: 
-  type: git
-  repo: git@github.com:ds934118/ds934118.github.io.git
+deploy:
+- type: git
+  # 下方的gh_token会被.travis.yml中sed命令替换
+  repo: https://gh_token@github.com/ds934118/ds934118.github.io.git
   branch: master
+
