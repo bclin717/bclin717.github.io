@@ -3,17 +3,21 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: BC's note
-subtitle:
-description:
+title: " "
+subtitle: BC 的日常筆記
+description: 科技與人文的交界角落
+subtitle_desc: What I cannot create, I do not understand
 keywords:
+introduction: What I cannot create, I do not understand
 author: BC Lin
 language: zh-tw
 timezone:
+default_cover: ./images/default_cover.png
+header_cover: ./other/banner-bg.jpg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://ds934118.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -84,7 +88,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-skapp
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
