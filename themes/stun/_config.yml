@@ -45,7 +45,7 @@ menu:
   archives: /archives/ || folder-open
   # categories: /categories/ || th
   # tags: /tags/ || tags
-  # about: /about/ || user
+  about: /about/ || user
   # xxx: /xxx/ || xxx
   # You can add a secondary menu like follow.
   # xxx: javascript:; || xxx
@@ -90,12 +90,12 @@ header:
   # Header navigation bar height (Support for all types of CSS size units).
   nav_height: 50px
   # Background image in the header.
-  bg_image: ./images/banner-bg.jpg
+  bg_image: 
     enable: true
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url: 
+    url: /images/banner-bg.jpg
   # Mask effect of the background image.
   mask:
     enable: false
@@ -150,14 +150,14 @@ footer:
     enable: true
     # If not set, will be used `author` from Hexo main config.
     #   (e.g. liuyib. All Rights Reserved.)
-    text:
+    text: BCLin All Rights Reserved.
     # Start time. If not set, the current year will be used.
     since:
     # End time. If not set, the current year will be used.
     end:
   # The icon between the copyright year and the owner.
   icon:
-    enable: true
+    enable: false
     # Icon name in FontAwesome, see: https://fontawesome.com/v4.7.0/icons/
     # `heart` is recommended with animation in red (#ff0000).
     name: heart
@@ -192,7 +192,7 @@ footer:
 sidebar:
   enable: true
   # Sidebar position, available values: left | right.
-  position: right
+  position: left
   # Sidebar offset from top menubar (Only px units are supported).
   offsetTop: 30px
   # Horizon line.
@@ -323,7 +323,7 @@ post_list:
     archives: false
   # Whether to show the cover image of post.
   cover_image:
-    home: false
+    home: true
 
 # The widget of post.
 post_widget:
@@ -447,7 +447,7 @@ disqus:
 # Busuanzi statistics
 # See: https://busuanzi.ibruce.info/
 busuanzi:
-  enable: false
+  enable: true
   # Only show by icon.
   icon_only: false
   # Number of unique visitor to the entire site.
@@ -503,7 +503,7 @@ local_search:
 # Canvas-ribbon
 # Dependencies: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: false
+  enable: true
   # The width of the ribbon.
   size: 120
   # The transparency of the ribbon.
