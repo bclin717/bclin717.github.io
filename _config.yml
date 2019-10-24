@@ -14,6 +14,7 @@ language: zh-tw
 timezone:
 default_cover: ./images/default_cover.png
 header_cover: ./other/banner-bg.jpg
+logo: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
