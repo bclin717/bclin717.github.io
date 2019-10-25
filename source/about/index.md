@@ -1,12 +1,10 @@
 ---
-title: About me
-url: About.html
-id: 1625
+title: About BC.Lin
 top_image:
     - "/images/banner-about.jpg"
 ---
 
-# Who am I？
+# Who am I ? BC.Lin
 ## Master student in Software Quality Lab @ NCTU
 ## Major in computer science
 ## Field of research:

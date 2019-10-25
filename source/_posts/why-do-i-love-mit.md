@@ -31,7 +31,9 @@ top_image: https://imgur.com/GWrdwsj.jpg
 
 但是，直到我踏入 MIT 的校園，才想起自己原來也有過年少輕狂的夢。
 
-我想起 Welcome to Night Vale（歡迎來到夜谷）這齣廣播劇的第一集，Cecil 曾對科學家 Carlos 的到來這樣評價：「We have _all_ been scientists at one point or another in our lives.」 （我們都曾在生命中的某刻是一名科學家。） 我心中那個求知的小孩不知道何時消失了，只是為了考試、學歷、金錢而去唸書，似乎是很久沒有以研究為目的去思考了。在 MIT，我看到許多人背負著熱情走在校園裡，我看到徜徉於學術自由的喜悅，我，也想當一名真正意義上充滿熱情的科學家。
+我想起 Welcome to Night Vale（歡迎來到夜谷）這齣廣播劇的第一集，Cecil 曾對科學家 Carlos 的到來這樣評價：「We have _all_ been scientists at one point or another in our lives.」 （我們都曾在生命中的某刻是一名科學家。） 
+
+我心中那個求知的小孩不知道何時消失了，只是為了考試、學歷、金錢而去唸書，似乎是很久沒有以研究為目的去思考了。在 MIT，我看到許多人背負著熱情走在校園裡，我看到徜徉於學術自由的喜悅，我，也想當一名真正意義上充滿熱情的科學家。
 
 所以，我決定從碩士班開始申請 MIT PhD 的準備吧！無論結果如何，也要先努力試試。
 
