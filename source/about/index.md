@@ -2,7 +2,7 @@
 title: About me
 url: About.html
 id: 1625
-photos:
+top_image:
     - "/images/banner-about.jpg"
 ---
 

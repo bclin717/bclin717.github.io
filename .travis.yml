@@ -17,8 +17,7 @@ branches:
 
 before_install:
   - npm install -g hexo-cli
-  - npm install --save hexo-render-pug
-
+  - npm install --save-dev hexo-render-pug hexo-renderer-stylus
 # Start: Build Lifecycle
 install:
   - npm install
