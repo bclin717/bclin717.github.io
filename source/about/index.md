@@ -2,7 +2,7 @@
 title: About me
 url: About.html
 id: 1625
-cover_image:
+photos:
     - "/images/banner-about.jpg"
 ---
 
@@ -13,7 +13,6 @@ cover_image:
 - Cyber Security
 - Software Testing / Quality Assurance
 - Deep Learning Tesintg / Security
-## [LinkedIn](https://www.linkedin.com/in/bckevinlin/)
 
 # 經歷
 - 百俐開發有限公司 專案經理 
