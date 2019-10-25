@@ -8,7 +8,12 @@ date: 2019-03-03 13:48:06
 tags:
 ---
 
-論文標題：DeepGauge: Multi-Granularity Testing Criteria for Deep Learning Systems 作者：Lei Ma, Felix Juefei-Xu, Fuyuan Zhang, Jiyuan Sun, Minhui Xue, Bo Li, Chunyang Chen, Ting Su, Li Li, Yang Liu, Jianjun Zhao, Yadong Wang 會議/期刊：ASE 2018 備註：ACM SIGSOFT Distinguished Paper Award 連結：https://arxiv.org/abs/1803.07519   這篇論文主要是提出了一種新型態的 Neural Network Coverage（神經網路覆蓋率），不同於 DeepXplore\[1\] 所提出的版本。
+# 論文標題：DeepGauge: Multi-Granularity Testing Criteria for Deep Learning Systems 
+- 作者：Lei Ma, Felix Juefei-Xu, Fuyuan Zhang, Jiyuan Sun, Minhui Xue, Bo Li, Chunyang Chen, Ting Su, Li Li, Yang Liu, Jianjun Zhao, Yadong Wang 
+- 會議/期刊：ASE 2018 
+- 備註：ACM SIGSOFT Distinguished Paper Award 
+- 連結：https://arxiv.org/abs/1803.07519   
+- 這篇論文主要是提出了一種新型態的 Neural Network Coverage（神經網路覆蓋率），不同於 DeepXplore[1] 所提出的版本。
 
 *   **Notation**
     *   Let N = {n1,n2, . . .} be a set of neurons of a DNN
@@ -22,44 +27,51 @@ tags:
     2.  K-multisection Neuron Coverage（KMNC）
         *   把每一個神經元的輸出最低到最高切出 k 個section
         *    k-multisection Neuron Coverage of a neuron n
-            *   ![](/images/2019/03/KMNC.jpg)
+            *   ![](https://imgur.com/RzdQdgZ.jpg)
         *   k-multisection Neuron Coverage of a DNN
-            *   ![](/images/2019/03/KMNC-of-DNN.jpg)
+            *   ![](https://imgur.com/HYUqTqZ.jpg)
     3.  Neuron Boundary Coverage（NBC）
         *   把負無限大到最低值 跟 最高值到無限大之間的輸出都歸類在這裡
         *   UpperCornerNeuron = {n ∈ N | ∃x ∈ T : ϕ(x,n) ∈ (highn, +∞)}
         *   LowerCornerNeuron = {n ∈ N | ∃x ∈ T : ϕ(x,n) ∈ (−∞, lown)}
-        *   ![](/images/2019/03/NBC.jpg)
+        *   ![](https://imgur.com/zheL4xe.jpg)
     4.  Strong Neuron Activation Coverage
         *   只看 UpperCornerNeuron 的輸出
-        *   ![](/images/2019/03/SNAC.jpg)
+        *   ![](https://imgur.com/EJ8ynGq.jpg)
 *   Layer-Level Coverage Criteria以階層為單位計算覆蓋率
     1.  Top-k Neuron Coverage
         *   每一層神經元輸出數值排出 Top-k，最後計算曾經變成 Top-k 的神經元數量，除以總神經元數量
-        *   ![](/images/2019/03/Top-k-NC.jpg)
+        *   ![](https://imgur.com/1iNkdll.jpg)
     2.  Top-k Neuron Patterns
         *   把輸出 Top-k 的路徑記作一個 Pattern，計算總共有幾種 Pattern
-        *   ![](/images/2019/03/TKNP.jpg)
+        *   ![](https://imgur.com/xqKGH6j.jpg)
 
-    Evaluation  
+# Evaluation  
 
 *   產生的樣本、DNN model 的參數跟覆蓋率的設定
 
-[![](/images/2019/03/2019-03-03_134036.jpg)](/images/2019/03/2019-03-03_134036.jpg)   [![](/images/2019/03/2019-03-03_134136.jpg)](/images/2019/03/2019-03-03_134136.jpg)  [![](/images/2019/03/2019-03-03_134149.jpg)](/images/2019/03/2019-03-03_134149.jpg) Findings
+[![](https://imgur.com/GDoPm0C.jpg)](https://imgur.com/GDoPm0C.jpg)
+  
+[![](https://imgur.com/fpEIluF.jpg)](https://imgur.com/fpEIluF.jpg)  
+
+[![](https://imgur.com/UeLUv6H.jpg)](https://imgur.com/UeLUv6H.jpg) 
+
+# Findings
 
 1.  無論如何，Adv樣本都會觸及到邊界。
 2.  增加覆蓋率不代表會找到問題。
 3.  SNAC 比 NBC 高，可能是因為 ReLU 把負數砍成零，所以 Lower Bound 小很多。
 
-Remark 1
+## Remark 1
 
 1.  對於 NBC 跟 SNC 來說，上下界設的越寬，覆蓋率增加越少（因為範圍被壓縮了）
 2.  對於 TKNC 來說，K越大，覆蓋率增加越少
 3.  對 TKNP 來說，K越大，Pattern 越多
 
-Remark 2
+## Remark 2
 
 1.  對 NBC 跟 SNAC 來說，對抗例樣本會增加他們的覆蓋率，反過來說，觸及邊界的很有可能就是對抗例樣本。
 2.  用 CW 攻擊產生的對抗例樣本對增加覆蓋率影響不大。
 
-  Reference \[1\] Kexin Pei, Yinzhi Cao, Junfeng Yang, Suman Jana, “DeepXplore: Automated Whitebox Testing of Deep Learning Systems,” SOSP 2017.
+# Reference 
+[1] Kexin Pei, Yinzhi Cao, Junfeng Yang, Suman Jana, “DeepXplore: Automated Whitebox Testing of Deep Learning Systems,” SOSP 2017.
