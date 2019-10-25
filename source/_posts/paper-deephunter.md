@@ -10,7 +10,8 @@ date: 2019-03-18 19:30:08
 tags:
 ---
 
-# 論文標題：DeepHunter: Hunting Deep Neural Network Defects via Coverage-Guided Fuzzing 
+# 論文資訊
+- 標題：DeepHunter: Hunting Deep Neural Network Defects via Coverage-Guided Fuzzing 
 - 作者：Xiaofei Xie, Lei Ma, Felix Juefei-Xu, Hongxu Chen, Minhui Xue, Bo Li, Yang Liu, Jianjun Zhao, Jianxiong Yin, Simon See 
 - 機構：Nanyang Technological University、Harbin Institute of Technology、Carnegie Mellon University、University of Illinois at Urbana–Champaign、Kyushu University、NVIDIA AI Technology Center 
 - 會議/期刊：None 連結：https://arxiv.org/abs/1809.01266   

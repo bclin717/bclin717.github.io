@@ -8,7 +8,8 @@ date: 2019-03-03 13:48:06
 tags:
 ---
 
-# 論文標題：DeepGauge: Multi-Granularity Testing Criteria for Deep Learning Systems 
+# 論文資訊
+- 標題：DeepGauge: Multi-Granularity Testing Criteria for Deep Learning Systems 
 - 作者：Lei Ma, Felix Juefei-Xu, Fuyuan Zhang, Jiyuan Sun, Minhui Xue, Bo Li, Chunyang Chen, Ting Su, Li Li, Yang Liu, Jianjun Zhao, Yadong Wang 
 - 會議/期刊：ASE 2018 
 - 備註：ACM SIGSOFT Distinguished Paper Award 
