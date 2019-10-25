@@ -9,10 +9,10 @@ description: 科技與人文的交界角落
 subtitle_desc: What I cannot create, I do not understand
 keywords: 
 author: BC Lin
-language: zh-tw
+language: zh-TW
 timezone:
 # default_cover: ./images/default_cover.png
-header_cover: ./other/banner-bg.jpg
+# header_cover: ./other/banner-bg.jpg
 logo: 
 
 # URL

@@ -115,7 +115,7 @@ creative_commons:
   # You can set a language value if you prefer a translated version of CC license.
   # Valid values of language: en, zh, etc.
   # If not set, "en" will be used by default.
-  language:
+  language: 
 
 # Back to top button.
 back2top:
