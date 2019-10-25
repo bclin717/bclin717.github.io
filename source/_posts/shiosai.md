@@ -6,10 +6,10 @@ categories:
   - 讀書筆記
 date: 2019-03-13 16:47:50
 tags:
-top_image: https://imgur.com/UDo6ax1
+top_image: https://imgur.com/UDo6ax1.jpg
 ---
 
-![](https://imgur.com/UDo6ax1)
+![](https://imgur.com/UDo6ax1.jpg)
 
 《潮騷》是三島由紀夫筆下少有的陽光、明亮、溫暖的作品，那一年，他 29 歲。
 根據我查到的資料，三島曾說：「《潮騷》是以《塔夫尼斯與克蘿婀》為藍本，去尋覓被文明隔絕，卻瀰漫著淳樸美學的小島。」
