@@ -4,7 +4,6 @@ url: 2494.html
 id: 2494
 categories:
   - 軟體研討
-  - 預設
 date: 2016-05-03 22:42:56
 tags:
 ---

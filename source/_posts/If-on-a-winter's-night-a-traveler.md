@@ -3,7 +3,6 @@ title: 如果讓我談《如果在冬夜，一個旅人》
 url: 2873.html
 id: 2873
 categories:
-  - 日常筆記
   - 讀書筆記
 date: 2018-01-07 01:04:30
 tags:

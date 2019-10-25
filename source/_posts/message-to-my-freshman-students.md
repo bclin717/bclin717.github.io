@@ -4,7 +4,6 @@ url: 1703.html
 id: 1703
 categories:
   - 翻譯
-  - 預設
 date: 2015-05-20 01:24:07
 tags:
 ---

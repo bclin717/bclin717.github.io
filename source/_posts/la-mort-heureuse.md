@@ -3,7 +3,6 @@ title: 少年卡繆的思辨《快樂的死》
 url: 2977.html
 id: 2977
 categories:
-  - 日常筆記
   - 讀書筆記
 date: 2018-04-13 19:23:15
 tags:

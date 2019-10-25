@@ -4,7 +4,6 @@ url: 1567.html
 id: 1567
 categories:
   - 硬體研討
-  - 預設
 date: 2015-02-17 00:10:49
 tags:
 ---

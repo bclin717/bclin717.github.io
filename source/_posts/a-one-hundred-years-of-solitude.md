@@ -3,7 +3,6 @@ title: 魔幻寫實經典《百年孤寂》閱讀心得
 url: 2913.html
 id: 2913
 categories:
-  - 日常筆記
   - 讀書筆記
 date: 2018-02-04 17:34:01
 tags:

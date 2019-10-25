@@ -3,9 +3,7 @@ title: Wordpress 被植入 SEO Spam 的清除事件簿
 url: 2656.html
 id: 2656
 categories:
-  - 日常筆記
   - 軟體研討
-  - 預設
 date: 2016-12-07 10:55:19
 tags:
 ---

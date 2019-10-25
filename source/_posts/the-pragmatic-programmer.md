@@ -3,9 +3,7 @@ title: 軟體工程師的修練之道《The Pragmatic Programmer》
 url: 3279.html
 id: 3279
 categories:
-  - 日常筆記
   - 讀書筆記
-  - 軟體研討
 date: 2018-11-21 09:32:35
 tags:
 ---

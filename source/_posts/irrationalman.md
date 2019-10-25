@@ -3,7 +3,6 @@ title: 而今人類的根本是人：《非理性的人》
 url: 3110.html
 id: 3110
 categories:
-  - 日常筆記
   - 讀書筆記
 date: 2018-06-16 22:07:42
 tags:

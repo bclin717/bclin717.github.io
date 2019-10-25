@@ -43,7 +43,7 @@ qihu360_site_verification:
 menu:
   home: / || home
   archives: /archives/ || folder-open
-  # categories: /categories/ || th
+  categories: /categories/ || th
   # tags: /tags/ || tags
   about: /about/ || user
   # xxx: /xxx/ || xxx
@@ -207,7 +207,7 @@ author:
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url: /images/avatar.jpg
+    url: /images/avatar.png
     # If true, the avatar would be displayed in a circle.
     rounded: true
     # The value should be chosen from 0 to 1.
