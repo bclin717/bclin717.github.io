@@ -2,8 +2,8 @@ nav.paginator
   - var fa_prefix = theme.fa_prefix || 'fa'
 
   if !is_post()
-    - var prev_text = `<i class="${fa_prefix} fa-chevron-left"></i>`
-    - var next_text = `<i class="${fa_prefix} fa-chevron-right"></i>`
+    - var prev_text = `<`
+    - var next_text = `>`
     div.paginator-inner!= paginator({ prev_text, next_text, mid_size: 1 })
   else
     div.paginator-post
