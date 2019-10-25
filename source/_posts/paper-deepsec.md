@@ -8,7 +8,7 @@ date: 2019-02-19 12:09:11
 tags:
 ---
 
-論文標題：DEEPSEC: A Uniform Platform for Security Analysis of Deep Learning Model 作者：Xiang Ling, Shouling Ji, Jiaxu Zou, Jiannan Wang, Chunming Wu, Bo Li, Ting Wang 研究機構：Zhejiang University, Alibaba-Zhejiang University Joint Research Institute of Frontier Technologies, UIUC, Lehigh University 會議/期刊：IEEE S&P 2019 連結：[點我](https://nesa.zju.edu.cn/download/DEEPSEC%20A%20Uniform%20Platform%20for%20Security%20Analysis%20of%20Deep%20Learning%20Model.pdf)   **1\. Introduction** 對於人工智慧界的軟體工程現況，作者提出了幾個問題， 第一、即目前對於評估深度學習模型品質的指標過於簡單。例如，誤判率（Misclassification Rate）並無法用來評估一個攻擊方法。 第二、之前的論文總是評估一小部分的攻擊或防禦方法。例如，許多防禦方法都只用一些強的攻擊，但其實很多時候能防禦強的攻擊不代表對於弱的攻擊免疫。 第三、攻防的快速競爭使得許多方法快速失效。例如，許多防禦方法所採用的 Gradient Obfuscation Strategy 已經沒什麼用了 \[1\]。 這些因素都會讓研究的結論產生矛盾，像是 Defensive Distillation \[2\] 原來是用來抵擋 JSMA 攻擊，但現在我們發現其實只對新攻擊的 Marginal Robustness 有增強而已，而且後來的研究指出用上 DD 方法所訓練出的模型表現會比原來的模型還要差\[3\]。 所以說作者認為我們必須要有一套可以泛用，並且提供許多資訊以供評估 Adversarial 攻擊與防禦。而這個平台必須有四個特點： Uniform - 這平台可以在相同設定環境下比較不同攻擊與防禦方法 Comprehensive - 可以提供所有代表性的攻擊與防禦方法 Informative - 可以給出非常多的指標來評估攻擊與防禦方法 Extensible - 可以簡單地增加新的攻擊與防禦方法 而目前有的平台，如 Cleverhans（[Github](https://github.com/tensorflow/cleverhans)）都沒有達到以上的所有需求。而這篇論文所提出的 DEEPSEC 則包括了 16 種攻擊、10 種攻擊指標、13 種防禦以及 5 種防禦指標。   **2.  Attacks & Defenses** 關於這篇論文所提出的實驗，都是以白箱攻擊為前提，攻擊者知道所有關於目標模型的細節（深度、節點數、訓練集...之類的），但不知道所部屬的防禦方法。Table 1 給出了所有在這篇論文使用到的攻防方法、評估指標以及其縮寫。 [![](./images/2019/01/2019-01-30_111340-1.jpg)](./images/2019/01/2019-01-30_111340-1.jpg)   A. 攻擊方法 這篇論文將攻擊方法分為UA（Un-targeted Attacks）跟TA（Targeted Attacks），還有 Non-iterative Attack 與 Iterative Attack。所以總共有四種攻擊。以上不做敘述。 B. 攻擊的評測指標
+論文標題：DEEPSEC: A Uniform Platform for Security Analysis of Deep Learning Model 作者：Xiang Ling, Shouling Ji, Jiaxu Zou, Jiannan Wang, Chunming Wu, Bo Li, Ting Wang 研究機構：Zhejiang University, Alibaba-Zhejiang University Joint Research Institute of Frontier Technologies, UIUC, Lehigh University 會議/期刊：IEEE S&P 2019 連結：[點我](https://nesa.zju.edu.cn/download/DEEPSEC%20A%20Uniform%20Platform%20for%20Security%20Analysis%20of%20Deep%20Learning%20Model.pdf)   **1\. Introduction** 對於人工智慧界的軟體工程現況，作者提出了幾個問題， 第一、即目前對於評估深度學習模型品質的指標過於簡單。例如，誤判率（Misclassification Rate）並無法用來評估一個攻擊方法。 第二、之前的論文總是評估一小部分的攻擊或防禦方法。例如，許多防禦方法都只用一些強的攻擊，但其實很多時候能防禦強的攻擊不代表對於弱的攻擊免疫。 第三、攻防的快速競爭使得許多方法快速失效。例如，許多防禦方法所採用的 Gradient Obfuscation Strategy 已經沒什麼用了 \[1\]。 這些因素都會讓研究的結論產生矛盾，像是 Defensive Distillation \[2\] 原來是用來抵擋 JSMA 攻擊，但現在我們發現其實只對新攻擊的 Marginal Robustness 有增強而已，而且後來的研究指出用上 DD 方法所訓練出的模型表現會比原來的模型還要差\[3\]。 所以說作者認為我們必須要有一套可以泛用，並且提供許多資訊以供評估 Adversarial 攻擊與防禦。而這個平台必須有四個特點： Uniform - 這平台可以在相同設定環境下比較不同攻擊與防禦方法 Comprehensive - 可以提供所有代表性的攻擊與防禦方法 Informative - 可以給出非常多的指標來評估攻擊與防禦方法 Extensible - 可以簡單地增加新的攻擊與防禦方法 而目前有的平台，如 Cleverhans（[Github](https://github.com/tensorflow/cleverhans)）都沒有達到以上的所有需求。而這篇論文所提出的 DEEPSEC 則包括了 16 種攻擊、10 種攻擊指標、13 種防禦以及 5 種防禦指標。   **2.  Attacks & Defenses** 關於這篇論文所提出的實驗，都是以白箱攻擊為前提，攻擊者知道所有關於目標模型的細節（深度、節點數、訓練集...之類的），但不知道所部屬的防禦方法。Table 1 給出了所有在這篇論文使用到的攻防方法、評估指標以及其縮寫。 [![](/images/2019/01/2019-01-30_111340-1.jpg)](/images/2019/01/2019-01-30_111340-1.jpg)   A. 攻擊方法 這篇論文將攻擊方法分為UA（Un-targeted Attacks）跟TA（Targeted Attacks），還有 Non-iterative Attack 與 Iterative Attack。所以總共有四種攻擊。以上不做敘述。 B. 攻擊的評測指標
 
 1.  Misclassification（誤判）
     1.  Misclassification Raito（MR 誤判率）：即對抗樣本使分類器誤判的百分比值
@@ -39,7 +39,7 @@ D. 防禦的評測指標：防禦可以從兩個角度來評估，「功能保�
 3.  Classification Confidence Variance（CCV 分類信心值變異量）：增強防禦後的模型可能不會影響精準度，但信心值會有所波動，CCV 就是原來的信心值和增強防禦後的信心值之平均比值。
 4.  Classification Output Stability（COS 分類輸出穩定值）：利用 JS divergence\[7\] 去計算輸出機率的相似度。
 
-  **3\. System Design And Implementation** [![](./images/2019/01/2019-01-30_152154.jpg)](./images/2019/01/2019-01-30_152154.jpg) A. System Design：分為五個部分
+  **3\. System Design And Implementation** [![](/images/2019/01/2019-01-30_152154.jpg)](/images/2019/01/2019-01-30_152154.jpg) A. System Design：分為五個部分
 
 1.  Attack Module（AM）：製作對抗例去攻擊深度學習模型，共 16 種攻擊，一半是 UA，一半 TA。
 2.  Defense Module（DM）：防禦深度學習模型，共 13 種防禦。
@@ -57,7 +57,7 @@ B. System Implementation   **4\. Evaluations** 平台： Intel Xeon 2.2GHz CPU 
     5.  參數部分都統一。
 2.  Experiemntal Results
 
-[![](./images/2019/02/2019-02-14_143756.jpg)](./images/2019/02/2019-02-14_143756.jpg)
+[![](/images/2019/02/2019-02-14_143756.jpg)](/images/2019/02/2019-02-14_143756.jpg)
 
 1.  Misclassification：Iterative 強於 Non-iterative
     *   Remark 1：大部分狀況下，目前的所有攻擊都有非常高的成功率（以 MR 來看的話，Iterative 的所有攻擊方式，在 CIFAR-10 上都有接近 100% 的 MR），都能很有效的誤導目標模型。有個有趣的現象是，如果對抗例的 ACTC 比較低，那對於攻擊不同模型時較具有泛用性。
@@ -75,7 +75,7 @@ B. Evaluation of Defenses
 1.  Experimental Setup
 2.  Results
 
-![](./images/2019/02/2019-02-18_162059.jpg)
+![](/images/2019/02/2019-02-18_162059.jpg)
 
 *   NAT、DD、TE、RC 在 MNIST 跟 CIFAR-10 上面的精準度並沒有受到什麼影響。
 *   IGR-、RT-、和 PD 強化過的模型的精準度則在 CIFAR-10 上受到很大的影響。
@@ -86,12 +86,12 @@ B. Evaluation of Defenses
 
 C. Defenses vs. Attacks
 
-1.  Complete Defenses：將對抗例正確辨識出來。![](./images/2019/02/2019-02-18_201932.jpg)
+1.  Complete Defenses：將對抗例正確辨識出來。![](/images/2019/02/2019-02-18_201932.jpg)
     *   Results
         *   大部分防禦方法都有用，但有大有小。像是 NAT 對所有攻擊都有 80% 以上的抵擋能力，而所有方法平均是 58.4%。
         *   抵擋 TA 比 UA 還有用。作者猜測是因為 UA 只是讓模型誤判，泛用性比較強；而 TA 則通常是針對模型去做攻擊，所以用了防禦後模型不同，效果就會打折扣。
     *   Remark 5：多數防禦方法都有比較適合的攻擊方法，而通常有 retrain 模型的比沒有的強。
-2.  Detection：偵測出對抗例並拒絕輸出。![](./images/2019/02/2019-02-18_212153.jpg)
+2.  Detection：偵測出對抗例並拒絕輸出。![](/images/2019/02/2019-02-18_212153.jpg)
     *   Experiemental Setup
         *   先找了 4-A 成功被辨識錯誤的對抗例
         *   再從測試集裡面隨機挑選可以被正確辨識的測試樣本
@@ -103,7 +103,7 @@ C. Defenses vs. Attacks
         *   比較高的擾動不一定比較容易被偵測到。
     *   Remark 6：所有的偵測方法對目前的攻擊方法都有一定效果。不同的偵測方法有適合他們的攻擊方法。而高的擾動不一定比較容易被偵測。
 
-  **5\. Case Studies** A. Case Study 1: Transferability of Adversarial Attacks ![](./images/2019/02/2019-02-19_101325.jpg) 主要為了測試不同攻擊的遷移性。
+  **5\. Case Studies** A. Case Study 1: Transferability of Adversarial Attacks ![](/images/2019/02/2019-02-19_101325.jpg) 主要為了測試不同攻擊的遷移性。
 
 1.  Experimental Setup：訓練了三個模型要來進行測試
     *   Model 1：一樣的模型，但經歷了不同的隨機初始化。
@@ -119,7 +119,7 @@ C. Defenses vs. Attacks
         *   L無限 遷移性強過其他攻擊
         *   對抗例在其他模型的 ACAC 高於原模型
 
-B. Case Study 2: Is Ensemble of Defense More Robust ![](./images/2019/02/2019-02-19_105717.jpg) 不同防禦手法組合後抵禦攻擊的能力是否會增強？
+B. Case Study 2: Is Ensemble of Defense More Robust ![](/images/2019/02/2019-02-19_105717.jpg) 不同防禦手法組合後抵禦攻擊的能力是否會增強？
 
 1.  Experiment Setup：和 4A 用的測試方法一樣。並有三種防禦組合：
     *   Completely-random Ensemble：隨機從九種防禦中選擇三種組合

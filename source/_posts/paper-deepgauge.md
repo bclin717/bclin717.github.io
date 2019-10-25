@@ -22,30 +22,30 @@ tags:
     2.  K-multisection Neuron Coverage（KMNC）
         *   把每一個神經元的輸出最低到最高切出 k 個section
         *    k-multisection Neuron Coverage of a neuron n
-            *   ![](./images/2019/03/KMNC.jpg)
+            *   ![](/images/2019/03/KMNC.jpg)
         *   k-multisection Neuron Coverage of a DNN
-            *   ![](./images/2019/03/KMNC-of-DNN.jpg)
+            *   ![](/images/2019/03/KMNC-of-DNN.jpg)
     3.  Neuron Boundary Coverage（NBC）
         *   把負無限大到最低值 跟 最高值到無限大之間的輸出都歸類在這裡
         *   UpperCornerNeuron = {n ∈ N | ∃x ∈ T : ϕ(x,n) ∈ (highn, +∞)}
         *   LowerCornerNeuron = {n ∈ N | ∃x ∈ T : ϕ(x,n) ∈ (−∞, lown)}
-        *   ![](./images/2019/03/NBC.jpg)
+        *   ![](/images/2019/03/NBC.jpg)
     4.  Strong Neuron Activation Coverage
         *   只看 UpperCornerNeuron 的輸出
-        *   ![](./images/2019/03/SNAC.jpg)
+        *   ![](/images/2019/03/SNAC.jpg)
 *   Layer-Level Coverage Criteria以階層為單位計算覆蓋率
     1.  Top-k Neuron Coverage
         *   每一層神經元輸出數值排出 Top-k，最後計算曾經變成 Top-k 的神經元數量，除以總神經元數量
-        *   ![](./images/2019/03/Top-k-NC.jpg)
+        *   ![](/images/2019/03/Top-k-NC.jpg)
     2.  Top-k Neuron Patterns
         *   把輸出 Top-k 的路徑記作一個 Pattern，計算總共有幾種 Pattern
-        *   ![](./images/2019/03/TKNP.jpg)
+        *   ![](/images/2019/03/TKNP.jpg)
 
     Evaluation  
 
 *   產生的樣本、DNN model 的參數跟覆蓋率的設定
 
-[![](./images/2019/03/2019-03-03_134036.jpg)](./images/2019/03/2019-03-03_134036.jpg)   [![](./images/2019/03/2019-03-03_134136.jpg)](./images/2019/03/2019-03-03_134136.jpg)  [![](./images/2019/03/2019-03-03_134149.jpg)](./images/2019/03/2019-03-03_134149.jpg) Findings
+[![](/images/2019/03/2019-03-03_134036.jpg)](/images/2019/03/2019-03-03_134036.jpg)   [![](/images/2019/03/2019-03-03_134136.jpg)](/images/2019/03/2019-03-03_134136.jpg)  [![](/images/2019/03/2019-03-03_134149.jpg)](/images/2019/03/2019-03-03_134149.jpg) Findings
 
 1.  無論如何，Adv樣本都會觸及到邊界。
 2.  增加覆蓋率不代表會找到問題。

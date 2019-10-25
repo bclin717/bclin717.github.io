@@ -11,8 +11,8 @@ keywords:
 author: BC Lin
 language: zh-TW
 timezone:
-# default_cover: ./images/default_cover.png
-# header_cover: ./other/banner-bg.jpg
+# default_cover: /images/default_cover.png
+# header_cover: /other/banner-bg.jpg
 logo: 
 
 # URL
