@@ -157,7 +157,7 @@ footer:
     end:
   # The icon between the copyright year and the owner.
   icon:
-    enable: false
+    enable: true
     # Icon name in FontAwesome, see: https://fontawesome.com/v4.7.0/icons/
     # `heart` is recommended with animation in red (#ff0000).
     name: heart
