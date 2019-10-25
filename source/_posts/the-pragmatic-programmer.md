@@ -4,9 +4,10 @@ categories:
   - 讀書筆記
 date: 2018-11-21 09:32:35
 tags:
+photos: 
+   - https://imgur.com/fa7n7Iw.jpg
 ---
 
-![](https://imgur.com/fa7n7Iw.jpg)
 
 這真是一本好書，雖然已經發行將近 20 年了，仍然風采未減。
 

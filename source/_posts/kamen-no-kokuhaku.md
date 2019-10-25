@@ -9,7 +9,7 @@ tags:
 top_image: https://imgur.com/NVuaWOD.jpg
 ---
 
-![](https://imgur.com/pwFqOxL.jpg)
+![](https://imgur.com/LDnSyLM.jpg)
 
 # 前言
 
