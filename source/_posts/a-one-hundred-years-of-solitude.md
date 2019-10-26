@@ -4,7 +4,7 @@ categories:
   - 讀書筆記
 date: 2018-02-04 17:34:01
 tags:
-top_image:　https://imgur.com/FuvXraL.jpg
+top_image: https://imgur.com/FuvXraL.jpg
 ---
 
 1982 年諾貝爾文學獎得主 加布列·賈西亞·馬奎斯（Gabriel García Márquez）在 1967 年出版了《百年孤寂》（Cien años de soledad）這部名作。身為一名 90 年代出生，活躍於千禧年後的年輕人，我在距這部名作出版近半世紀後才聽聞這部作品。而最近台灣取得了翻譯版權，發行了精裝版以及三種書衣。上個禮拜在誠品看到了誠品版的精裝版，二話不說就買了下來。
