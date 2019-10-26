@@ -44,6 +44,8 @@ menu:
   home: / || home
   archives: /archives/ || folder-open
   categories: /categories/ || th
+  movies: https://www.notion.so/bclin/8d93520557bc4f498178961836f7305f?v=8ae8644f806544cf8d1d00b8b90f248a || video-camera
+  books: https://www.notion.so/bclin/8d93520557bc4f498178961836f7305f?v=8ae8644f806544cf8d1d00b8b90f248a || book
   # tags: /tags/ || tags
   about: /about/ || user
   # xxx: /xxx/ || xxx
