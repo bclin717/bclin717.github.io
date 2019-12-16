@@ -59,23 +59,21 @@ top_image:
 
 # 生活環境
 ## 遊戲電腦： 
-- Intel i7-6700K 
-- MSI B150M Bazooka Plus 
-- Micron DDR4-2400 8Gx2 
-- Thermalright Venomous X （利民 VX） 
+- AMD Ryzen 7 3700X
+- MSi MPG X570 Gaming Plus
+- Micron DDR4-2666 16G x 2
 - EVGA RTX 2080 Ti Black \- 2019 / 03 / 14 
 - Enermax Platimax D.F. 600W 
-- Micron MX200 500G + Toshiba 3TB 7200rpm 
-- NZXT H440
+- Corsair Force MP510 960G + Toshiba 3TB 7200rpm + Hitachi 2TB 7200rpm
+- Fractal Design R6 
 - IKBC KD87 
-- Zowie EC1-B CS:GO Esport Edition
+- Zowie EC1 Tyroo
 - BenQ Zowie XL2430  
 
 ## 實驗室電腦： 
 - i5-8400 
-- MSI GTX 970 Golden Edition 
 - Realforce TKL / R2TL-US5-BK - 2019 / 05 / 05 
-- Zowie EC2-A
+- Zowie EC2-B CS:GO Edition
 
 ## 其他設備
 - 現役耳機： Sony WF-1000XM3（外出用） - 2019 / 07 / 11 
