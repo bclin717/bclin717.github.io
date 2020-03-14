@@ -724,7 +724,7 @@ quicklink:
   # ! --------------------------------------------------
   # ! If you don't know the following, please ignore it.
   # ! --------------------------------------------------
- ignores:
+  ignores:
     - /\/api\/?/
     - uri => uri.includes('.xml')
     - uri => uri.includes('.zip')
