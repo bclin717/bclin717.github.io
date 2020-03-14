@@ -111,9 +111,9 @@ night_mode:
 # The layout for sidebar and content of site.
 layout:
   # The width of the content area in website.
-  content: 768px
+  content: 900px
   # The width of the sidebar in website.
-  sidebar: 300px
+  sidebar: 270px
   # The width between the content and the sidebar.
   content_sidebar_gap: 30px
   # The padding property of the main tag.
@@ -275,7 +275,7 @@ back2top:
 sidebar:
   enable: true
   # Optional value: left | right
-  position: right
+  position: left
   # The distance from the top of the page when the sidebar is fixed (Only `px` unit is supported)
   offsetTop: 20px
   # Whether to show horizon line.
