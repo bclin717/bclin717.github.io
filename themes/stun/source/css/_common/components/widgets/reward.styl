@@ -4,20 +4,19 @@
   &-button {
     display: inline-block;
     margin: 1rem 0 1.5rem;
-    border-radius: 10px;
+    border-radius: 6px;
     padding: .2rem 1rem;
-    color: $white;
+    color: #f5f6f7;
     background-color: $reward-btn-color;
-    transition-property: background-color;
+    transition: background-color .2s ease;
     cursor: pointer;
-    transition-ease();
 
     &:hover {
       background-color: $reward-btn-hover-color;
     }
   }
 
-  &-qr {
+  &-qrcode {
     display: none;
 
     &-alipay,
@@ -30,19 +29,19 @@
         height: 200px;
       }
 
-      &-text {
+      &__text {
         margin: .5rem 0;
       }
     }
 
     &-alipay {
-      &-text {
+      &__text {
         color: $reward-alipay-color;
       }
     }
 
     &-wechat {
-      &-text {
+      &__text {
         color: $reward-wechat-color;
       }
     }

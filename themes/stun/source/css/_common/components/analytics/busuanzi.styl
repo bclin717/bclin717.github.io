@@ -1,12 +1,15 @@
 .busuanzi {
-  &-site {
-    &_uv,
-    &_pv {
-      color: $white-light;
-
-      i {
-        margin: 0 .3rem 0 0;
-      }
+  &-siteuv,
+  &-sitepv {
+    &__icon,
+    &__info,
+    &__value {
+      margin: 0 2px;
     }
+  }
+
+  & > span:nth-child(2)::before {
+    content: '|';
+    margin: 0 10px;
   }
 }

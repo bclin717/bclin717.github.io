@@ -1,27 +1,25 @@
-.post-copyright {
+.copyright {
   position: relative;
-  margin: 0 0 1rem;
-  border: 1px solid $post-copyright-border-color;
+  border: 1px solid var(--color-gray-250);
   padding: .8rem 1rem;
   width: 100%;
-  transition-property: box-shadow;
-  transition-ease();
+  transition: box-shadow .2s ease;
 
   &:hover {
-    box-shadow: 0 0 5px 5px $post-copyright-shadow-color;
+    box-shadow: 0 0 16px 8px var(--color-gray-250);
   }
 
   &-author,
   &-link,
   &-notice {
-    &-name {
+    &__name {
       font-weight: $font-weight-bold;
-      word-wrap();
+      break-word();
     }
 
-    &-value {
-      color: $font-color;
-      word-wrap();
+    &__value {
+      color: var(--color-gray-800);
+      break-all();
     }
   }
 }
