@@ -52,20 +52,18 @@ post:
   created: Created
   updated: updated
   posted: Posted
-  word_count: Words
+  word_count: Words ≈
   reading_count: Visited
-  reading_time: Reading time
+  reading_time: Reading ≈ %s min
   read_more: Read more
-  fire: Heat
   sticky: Sticky top
-  untitled: ( Untitled )
-  end: End of text, thank you for reading
+  untitled: "[ Untitled ]"
+  end: ------ END ------
   copyright:
     author: Author
     link: Link
     license_title: Copyright
-    license_content: All articles in this blog are licensed under
-      <a href="%s" rel="external nofollow" target="_blank">%s</a> unless stating additionally
+    license_content: All articles in this blog are licensed under <a href="%s" rel="external nofollow" target="_blank">%s</a> unless stating additionally
 
 # Algolia search
 algolia_search:
@@ -75,7 +73,7 @@ algolia_search:
 
 # Local search
 local_search:
-  input_placeholder: Search for Posts
+  input_placeholder: Search for Posts (Support multiple keywords)
   hits_empty: We didn't find any results for the search
 
 # Reward
@@ -100,7 +98,7 @@ prompt:
     success: Copy Success
     error: Copy Error
   creative_commons: Creative Commons
-  copy_button: Click to Copy
+  copy_button: Copy
 
 # Others
 creative_commons: Creative Commons
