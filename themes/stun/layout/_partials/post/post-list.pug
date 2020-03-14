@@ -1,10 +1,10 @@
-section.postlist
+section.post-list
   include ../../_mixins/post-header.pug
   include ../../_mixins/gallery.pug
 
-  - var postLists = theme.post_list.paginate.home ? page.posts : site.posts;
+  - var postLists = theme.post_list.paginate.home ? page.posts : site.posts
   - postLists.each(function (post) {
-    article.postlist-item.post
+    article.post(class=`${post.link ? "post-link-title" : ""}`)
       +postHeader(post)
 
       div.post-body
@@ -14,22 +14,19 @@ section.postlist
         if post.photos && post.photos.length
           +gallery(post)
 
-        - var isExcerpt = true;
-        if theme.auto_excerpt.enable
-          - var content = strip_html(post.content);
-          - var excerpt = content.substring(0, theme.auto_excerpt.length);
-          - content.length > theme.auto_excerpt.length ? excerpt += '......' : '';
-          div.post-excerpt!= excerpt
+        - var isExcerpt = true
+        if theme.auto_excerpt && theme.auto_excerpt.enable
+          - const content = strip_html(post.content)
+          - var excerpt = content.substring(0, theme.auto_excerpt.length)
+          - content.length > theme.auto_excerpt.length ? excerpt += "......" : ""
+          div!= excerpt
         else if post.excerpt
-          div.post-excerpt!= post.excerpt
+          div.post-body-excerpt!= post.excerpt
         else
-          - isExcerpt = false;
-          div.post-excerpt!= post.content
+          - isExcerpt = false
+          div.post-body-excerpt!= post.content
 
         if !post.link && isExcerpt
-          div.post-readmore
-            a.post-readmore__link(href=url_for(post.path))
-              span.post-readmore__text= __('post.read_more')
-              span.post-readmore__icon
-                i(class=theme.icon.read_more_btn)
+          div.post-body-more
+            a.post-body-more__a(href=url_for(post.path))= __("post.read_more") + " »"
   - })

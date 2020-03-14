@@ -16,27 +16,28 @@ function table(args) {
     }
   });
 
-  return fs.readFile(path).then(function(data) {
-    if (!data) {
+  return fs.readFile(path).then(function(datas) {
+    if (!datas) {
       hexo.log.warn('Include file empty.');
       return;
-    }
+    }    
 
-    var tableData = JSON.parse(data);
+    var datas = JSON.parse(datas);
     var result = '<table class="table-plugin"><thead><tr>';
 
-    headers.forEach(header => (result += `<th>${header}</th>`));
+    headers.forEach(header => {
+      result += `<th>${header}</th>`;
+    });
     result += '</tr></thead><tbody>';
-    tableData.forEach(item => {
+    datas.forEach(data => {
       result += '<tr style="text-align: center;">';
-
-      for (var key in item) {
-        if (item.hasOwnProperty(key)) {
-          var value = item[key];
-          result += `<td>${value}</td>`;
+      for (const key in data) {
+        if (data.hasOwnProperty(key)) {
+          const value = data[key];
+          
+          result += `<td>${value}</td>`
         }
       }
-
       result += '</tr>';
     });
     result += '</tbody></table>';

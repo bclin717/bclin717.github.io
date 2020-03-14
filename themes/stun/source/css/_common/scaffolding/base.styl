@@ -1,43 +1,3 @@
-:root {
-  --color-gray-100: #ffffff;
-  --color-gray-150: #f9f9f9;
-  --color-gray-200: #f5f6f7;
-  --color-gray-250: #efefef;
-  --color-gray-300: #dadada;
-  --color-gray-400: #ccd0d5;
-  --color-gray-500: #bec3c9;
-  --color-gray-600: #8d949e;
-  --color-gray-650: #757474;
-  --color-gray-700: #606770;
-  --color-gray-800: #444950;
-  --color-gray-850: #303846;
-  --color-gray-900: #2c323c;
-  --color-gray-950: #1c1e21;
-  --color-font: var(--color-gray-900);
-  --color-card: var(--color-gray-100);
-  --color-blue-200: #ebeef5;
-}
-
-html.nightmode {
-  --color-gray-100: #1c1e21;
-  --color-gray-150: #2c323c;
-  --color-gray-200: #303846;
-  --color-gray-250: #444950;
-  --color-gray-300: #606770;
-  --color-gray-400: #757474;
-  --color-gray-500: #8d949e;
-  --color-gray-600: #bec3c9;
-  --color-gray-650: #ccd0d5;
-  --color-gray-700: #dadada;
-  --color-gray-800: #eaecef;
-  --color-gray-850: #f5f6f7;
-  --color-gray-900: #f9f9f9;
-  --color-gray-950: #ffffff;
-  --color-font: var(--color-gray-600);
-  --color-card: var(--color-gray-150);
-  --color-blue-200: #444950;
-}
-
 ::selection {
   color: $selection-color;
   background-color: $selection-bg;
@@ -60,8 +20,8 @@ body {
   font-family: $font-family-base;
   font-size: $font-size-base;
   line-height: $line-height-base;
-  color: var(--color-font);
-  background-color: var(--color-gray-250);
+  color: $font-color;
+  background-color: $body-bg-color;
 }
 
 h1,
@@ -92,6 +52,10 @@ a {
   background-color: transparent;
   outline: none;
   cursor: pointer;
+
+  &:hover {
+    color: $link-hover-color;
+  }
 }
 
 ul {
@@ -115,9 +79,9 @@ hr {
 
 blockquote {
   margin: 0;
-  border-left: 5px solid var(--color-gray-300);
+  border-left: 5px solid $quote-left-color;
   padding: 0 1rem;
-  background-color: var(--color-gray-200);
+  background-color: $quote-bg-color;
 
   & cite::before {
     content: '--';
@@ -126,13 +90,13 @@ blockquote {
 }
 
 code {
-  break-word();
   border-radius: 3px;
-  padding: 1px 5px;
+  padding: 0 .3em;
   font-family: $font-family-code;
   font-size: .95em;
-  color: var(--color-gray-700);
-  background-color: var(--color-gray-200);
+  word-wrap: break-word;
+  color: $code-color;
+  background-color: $code-bg-color;
 }
 
 dt {
@@ -152,25 +116,5 @@ table {
 
 th,
 td {
-  border: 1px solid var(--color-blue-200);
-}
-
-acronym,
-abbr {
-  cursor: help;
-}
-
-kbd {
-  display: inline-block;
-  border: 1px solid var(--color-gray-500);
-  border-radius: 3px;
-  padding: .1rem .2rem;
-  font-family: $font-family-kbd;
-  font-size: .85em;
-  font-weight: $font-weight-bolder;
-  line-height: 1;
-  white-space: nowrap;
-  color: var(--color-gray-850);
-  background-color: var(--color-gray-150);
-  box-shadow: 0 -1px 0 var(--color-gray-300) inset;
+  border: 1px solid $table-border-color;
 }

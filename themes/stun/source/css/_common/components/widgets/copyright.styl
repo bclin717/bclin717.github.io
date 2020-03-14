@@ -1,25 +1,27 @@
-.copyright {
+.post-copyright {
   position: relative;
-  border: 1px solid var(--color-gray-250);
+  margin: 0 0 1rem;
+  border: 1px solid $post-copyright-border-color;
   padding: .8rem 1rem;
   width: 100%;
-  transition: box-shadow .2s ease;
+  transition-property: box-shadow;
+  transition-ease();
 
   &:hover {
-    box-shadow: 0 0 16px 8px var(--color-gray-250);
+    box-shadow: 0 0 5px 5px $post-copyright-shadow-color;
   }
 
   &-author,
   &-link,
   &-notice {
-    &__name {
+    &-name {
       font-weight: $font-weight-bold;
-      break-word();
+      word-wrap();
     }
 
-    &__value {
-      color: var(--color-gray-800);
-      break-all();
+    &-value {
+      color: $font-color;
+      word-wrap();
     }
   }
 }

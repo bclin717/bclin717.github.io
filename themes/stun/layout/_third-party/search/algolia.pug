@@ -1,5 +1,5 @@
 -
-  var instantsearch_js = 'https://cdn.jsdelivr.net/npm/instantsearch.js@2.1.1/dist/instantsearch.min.js';
+  var instantsearch_js = "https://cdn.jsdelivr.net/npm/instantsearch.js@2.1.1/dist/instantsearch.min.js";
 
   if (theme.cdn.instantsearch_js) {
     instantsearch_js = theme.cdn.instantsearch_js;
@@ -40,7 +40,8 @@ script.
     });
 
     var algolia = CONFIG.algolia;
-    if (!algolia && !(algolia.appId && algolia.apiKey && algolia.indexName)) {
+
+    if (!(algolia.appId && algolia.apiKey && algolia.indexName)) {
       return console.error('Algolia setting is invalid.');
     }
 
@@ -110,7 +111,7 @@ script.
                 stats +
                 '<span class="algolia-logo pull-right">' +
                   '<img src="' + CONFIG.root +
-                  `${CONFIG.sourcePath.images}/algolia.svg" alt="Algolia" />` +
+                  'images/algolia.svg" alt="Algolia" />' +
                 '</span>'
               );
             }

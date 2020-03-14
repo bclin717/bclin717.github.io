@@ -1,30 +1,17 @@
 @require './theme.styl';
 @require './diff.styl';
 
-codeStyle = hexo-config('codeblock.style') || 'default';
-wordWrap = hexo-config('codeblock.word_wrap') || false;
-// Show lang in tag plugin.
-languages = 'markdown' 'md' 'diff' 'javascript' 'js' 'typescript' 'ts' 'java' 'json' 'html' 'xml' 'css' 'less' 'scss' 'stylus' 'styl' 'sql' 'bash' 'shell' 'python' 'py' 'ruby' 'cpp' 'c\+\+' 'c\#' 'go' 'kotlin' 'kt' 'objectivec' 'php' 'perl' 'pl' 'pm' 'rust' 'rs' 'swift' 'coffeescript' 'coffee' 'lua' 'yaml' 'yml' 'nginx' 'dockerfile' 'makefile';
-
-.highlight {
-  figcaption {
-    span {
-      &:first-child::before {
-        margin: 0 .6rem 0 0;
-        color: $highlight-code-lang-color;
-      }
-    }
-  }
-}
+languages = 'js' 'javascript' 'python' 'ruby' 'xml' 'html' 'css' 'php' 'sql' 'coffeescript' 'java' 'bash' 'markdown' 'kotlin' 'c' 'c\+\+' 'c#' 'go' 'golang' 'less' 'sass' 'scss' 'stylus' 'styl' 'typescript' 'ts' 'yml' 'yaml' 'matlab' 'objectivec' 'makefile' 'scala' 'gradle' 'swift' 'rust' 'lua' 'lisp' 'fortran' 'dart' 'perl';
+wordWrap = hexo-config('code_word_wrap');
 
 for lang in languages {
-  .highlight {
-    &{'.' + lang} {
-      figcaption {
-        span {
-          &:first-child::before {
-            content: lang;
-          }
+  .highlight{'.' + lang} {
+    figcaption {
+      span {
+        &:first-child::before {
+          content: lang;
+          margin: 0 .6rem 0 0;
+          color: $highlight-code-lang-color;
         }
       }
     }
@@ -37,10 +24,6 @@ for lang in languages {
   line-height: $line-height-codeblock;
   color: $highlight-color;
   background-color: $highlight-background;
-
-  if (codeStyle == 'simple' || (codeStyle == 'carbon')) {
-    border-radius: .25rem;
-  }
 
   pre,
   code {
@@ -62,19 +45,11 @@ for lang in languages {
 
   figcaption {
     position: relative;
+    padding: .1rem 0;
     width: 100%;
     color: $highlight-header-color;
     background-color: $highlight-header-bg-color;
     clearfix();
-
-    if (codeStyle == 'carbon') {
-      border-top-left-radius: .25rem;
-      border-top-right-radius: .25rem;
-    }
-
-    if (codeStyle == 'default') {
-      padding: .1rem 0;
-    }
 
     span {
       &:first-child {
@@ -91,54 +66,46 @@ for lang in languages {
   }
 
   figcaption.custom {
+    padding: .1rem 0;
     min-height: 1.5rem;
-
-    if (codeStyle == 'carbon') {
-      display: flex;
-    }
 
     .custom-lang {
       float: left;
       margin: 0 .6rem;
       color: $highlight-code-lang-color;
     }
+  }
 
-    if (codeStyle == 'carbon') {
-      .custom-carbon {
-        display: flex;
-        margin: .2rem 0 0 .5rem;
-        font-size: 0;
-        align-items: center;
-
-        &-dot {
-          display: inline-block;
-          margin: 0 4px;
-          border-radius: 50%;
-          width: 10px;
-          height: 10px;
-
-          &--red {
-            background-color: #ff5f56;
-          }
-
-          &--yellow {
-            background-color: #ffbd2e;
-          }
-
-          &--green {
-            background-color: #27c93f;
-          }
-        }
-      }
+  .code {
+    if (wordWrap) {
+      padding: 0;
+    } else {
+      padding: 0 0 0 .4rem;
     }
   }
 
-  addLineNumber() {
+  .gutter {
+    padding: .4rem .6rem;
+    width: 1rem;
+    background-color: $highlight-side-bg-color;
+
+    if (wordWrap) {
+      display: none;
+    }
+
+    pre {
+      text-align: right;
+      color: $highlight-side-color;
+      background-color: inherit;
+    }
+  }
+
+  if (wordWrap) {
     .line {
       &::before {
         content: counter(line);
         display: inline-block;
-        margin-right: .5rem;
+        margin: 0 .4rem 0 0;
         box-sizing: content-box;
         padding: 0 .8rem 0 .4rem;
         min-width: 1rem;
@@ -150,236 +117,99 @@ for lang in languages {
     }
   }
 
-  & figcaption:not(.custom) {
-    if (codeStyle == 'carbon') {
-      background-color: $highlight-side-bg-color;
-    }
-
-    if (codeStyle == 'simple' || (codeStyle == 'carbon')) {
-      & + .table-container,
-      & + table {
-        if (wordWrap) {
-          td.code {
-            padding: 0;
-          }
-
-          addLineNumber();
-        } else {
-          td.gutter {
-            display: table-cell;
-          }
-        }
-      }
-    }
+  .variable,
+  .attribute {
+    color: $highlight-red;
   }
 
-  td.gutter {
-    padding: .4rem .6rem;
-    width: 2rem;
-    background-color: $highlight-side-bg-color;
-
-    if (wordWrap || (codeStyle == 'simple' || (codeStyle == 'carbon'))) {
-      display: none;
-    }
-
-    pre {
-      text-align: right;
-      white-space: nowrap;
-      color: $highlight-side-color;
-      background-color: inherit;
-    }
+  .number,
+  .preprocessor,
+  .literal,
+  .params,
+  .constant,
+  .number,
+  .command {
+    color: $highlight-orange;
   }
 
-  td.code {
-    if (codeStyle == 'simple' || (codeStyle == 'carbon')) {
-      padding: .5rem .75rem;
-    } else if (codeStyle == 'default') {
-      if (wordWrap) {
-        padding: 0;
-      } else {
-        padding: .5rem .6rem;
-      }
-    }
+  .built_in {
+    color: $highlight-yellow;
   }
 
-  if (wordWrap && (codeStyle == 'default')) {
-    addLineNumber();
+  .special,
+  .formula,
+  .class,
+  .string,
+  .value,
+  .inheritance,
+  .header,
+  .regexp,
+  .tag {
+    color: $highlight-green;
   }
 
-  .marked {
-    background-color: $marked-line-bg-color;
+  .keyword,
+  .title {
+    color: $highlight-aqua;
   }
 
-  .emphasis {
-    font-style: italic;
-  }
-
-  .strong {
-    font-weight: bold;
+  .function,
+  .title {
+    color: $highlight-blue;
   }
 
   .comment {
     color: $highlight-comment;
   }
-
-  .quote,
-  .params {
-    color: $highlight-color;
-  }
-
-  .selector-tag,
-  .template-variable,
-  .variable,
-  .deletion,
-  .regexp,
-  .name,
-  .tag {
-    color: $highlight-red;
-  }
-
-  .builtin-name,
-  .literal,
-  .number,
-  .type,
-  .meta,
-  .link {
-    color: $highlight-orange;
-  }
-
-  .class .keyword:first-child + .title,
-  .built_in,
-  .attribute {
-    color: $highlight-yellow;
-  }
-
-  .class .keyword ~ .title,
-  .string .template-variable,
-  .meta-string,
-  .tag,
-  .class,
-  .subst,
-  .regexp {
-    color: $highlight-green;
-  }
-
-  .string,
-  .symbol,
-  .bullet,
-  .addition {
-    color: $highlight-aqua;
-  }
-
-  .title,
-  .section {
-    color: $highlight-blue;
-  }
-
-  .meta-keyword,
-  .doctag,
-  .selector-id,
-  .selector-attr,
-  .selector-class,
-  .selector-pseudo,
-  .function,
-  .tag .attr,
-  .keyword {
-    color: $highlight-purple;
-  }
 }
 
-.bash .meta,
-.rust .meta {
-  color: $highlight-comment;
-}
-
-.c\\+\\+ .built_in,
-.cpp .built_in,
-.ini .variable,
-.ini .literal,
-.ini .number,
-.less .variable,
-.scss .variable,
-.styl .variable,
-.stylus .variable {
-  color: $highlight-color;
-}
-
-.html .meta,
-.xml .meta,
-.yaml .attr,
-.yml .attr {
+.ruby .constant,
+.xml .tag .title,
+.xml .pi,
+.xml .doctype,
+.html .doctype,
+.css .id,
+.tag .name,
+.css .class,
+.css .pseudo {
   color: $highlight-red;
 }
 
-.js .params,
-.javascript .params {
-  color: $highlight-orange;
-}
-
-.json .attr,
-.swift .type {
-  color: $highlight-yellow;
-}
-
-.variable .variable,
-.bash .variable,
-.c\\+\\+ .meta,
-.cpp .meta,
-.c\\# .meta,
-.css .number,
-.diff .meta {
+.ruby .class .title,
+.css .rules .attribute,
+.ruby .symbol,
+.xml .cdata {
   color: $highlight-green;
 }
 
-.md .section,
-.markdown .section,
-.py .string .meta,
-.python .string .meta {
+.css .hexcolor,
+.tag .string {
   color: $highlight-aqua;
 }
 
-.bash .built_in,
-.css .built_in,
-.go .built_in,
-.py .meta,
-.python .meta,
-.shell .meta,
-.shell .keyword,
-.shell .built_in {
+.python .decorator,
+.python .title,
+.ruby .function .title,
+.ruby .title .keyword,
+.perl .sub,
+.javascript .title,
+.js .title,
+.coffeescript .title {
   color: $highlight-blue;
 }
 
-.ini .attr,
-.objectivec .meta,
-.yaml .type,
-.yml .type {
+.tag .attr,
+.javascript .keyword,
+.javascript .function,
+.js .keyword,
+.js .function {
   color: $highlight-purple;
 }
 
-.diff {
-  .addition {
-    color: $highlight-addition-color;
-    background-color: $highlight-addition-bg-color;
-  }
-
-  .deletion {
-    color: $highlight-deletion-color;
-    background-color: $highlight-deletion-bg-color;
-  }
+.diff .addition {
+  background-color: $highlight-addition;
 }
 
-if (hexo-config('night_mode.enable')) {
-  .nightmode {
-    if (hexo-config('codeblock.highlight') == 'light') {
-      .diff {
-        .addition {
-          background-color: transparent;
-        }
-
-        .deletion {
-          background-color: transparent;
-        }
-      }
-    }
-  }
+.diff .deletion {
+  background-color: $highlight-deletion;
 }

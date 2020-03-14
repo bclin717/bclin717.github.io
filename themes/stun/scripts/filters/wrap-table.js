@@ -3,15 +3,13 @@
 'use strict';
 
 hexo.extend.filter.register('after_post_render', function (data) {
-  data.content = data.content.replace(
-    // Match the innermost 'table' tag.
-    /(<table[^>]*>(?:(?!<\/?table>)(?:\s|\S))*?<\/table>)/gim,
-    function (match, table) {
-      if (!table) {
-        return match;
-      }
+  var cheerio;
 
-      return `<div class="table-container">${table}</div>`;
-    }
-  );
+  if (!cheerio) cheerio = require('cheerio');
+
+  var $ = cheerio.load(data.content, { decodeEntities: false });
+  var $wrapper = $('<div class="table-container"></div>');
+
+  $('table').wrap($wrapper);
+  data.content = $.html();
 }, 0);

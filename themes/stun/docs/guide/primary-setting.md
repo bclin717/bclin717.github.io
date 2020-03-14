@@ -1,9 +1,9 @@
 # Primary Setting
 
 ::: tip Preface
-- Modifying configuration files, installing new dependencies, etc. all require restarting the Hexo server.
-- Not specifically, configuration items are supported from `v1.0.0`.
-- Stable configuration is indicated by <Badge text="Stable"/>, which means it will not change basically. Unstable configurations are indicated by <Badge text="Beta" type="warn"/>, which means it may be changed or even deleted in the future. Configuration items that are not supported currently are indicated by <Badge text="Not Support" type="error"/>. Abandon configurations are indicated by <Badge text="Abandon" type="error"/>. The earliest supported version number are indicated by <Badge text="v x.x.x"/>. Configuration items that are not related to the subject are indicated by <Badge text="Disrelated" type="warning"/>.
+- Restart the Hexo server by modifying the configuration file, installing new dependencies, and so on.
+- Unless otherwise stated, configuration items are supported by default from the `v1.0.0` version.
+- A stable configuration is marked with <Badge text="Stable"/>, indicating that it will not change substantially. Unstable configurations are marked with <Badge text="Beta" type="warn"/> to indicate that they may change or even be deleted in the future. Configurations that are not currently supported are marked with <Badge text="Not Support" type="error"/>. The obsolete configuration is marked with <Badge text="Deprecated" type="error"/>. The version number that was first supported is indicated by <Badge text="v x.x.x"/>. Configuration items that are not related to the topic are marked with <Badge text="Disrelated" type="warning"/>.
 :::
 
 ## Configuration file
@@ -115,7 +115,7 @@ favicon:
   # ! If you don't understand, please ignore the following.
   # ! -----------------------------------------------------
   # apple_touch_icon: /images/icons/apple-touch-icon.png
-  # safari_pinned_tab: /images/icons/stun-logo.svg
+  # safari_pinned_tab: /images/icons/logo-stun.svg
   # msapplication: /images/icons/favicon-144x144.png
 ```
 
@@ -145,15 +145,10 @@ header:
     enable: false
     # Opacity of mask (value: 0 ~ 1).
     opacity: 0.5
-  # The icon that prompt to scroll down.
-  scroll_down_icon:
-    enable: false
-    animation: true
 ```
 
 ::: warning Note
-- The `mask` option, the mask effect, is supported starting with the `v1.1.1` version. The `blur_effect` option, the blur filter effect, is abandoned starting with the `v1.1.1` version.
-- The `scroll_down_icon` option is supported starting with the `v1.5.4` version.
+The `mask` option, the mask effect, is supported starting with the `v1.1.1` version. The `blur_effect` option, the blur filter effect, is deprecated starting with the `v1.1.1` version.
 :::
 
 ### Specify the top image <Badge text="Stable"/>
@@ -226,7 +221,7 @@ social_setting:
 >
 > The name of the icon is found here: [https://fontawesome.com/v4.7.0/icons/](https://fontawesome.com/v4.7.0/icons/)
 
-::: danger <Badge text="Abandon" type="error"/>
+::: danger <Badge text="Deprecated" type="error"/>
 The `text_align` attribute of the configuration item `social_setting` is removed in the `v1.2.0` version.
 :::
 
@@ -291,4 +286,4 @@ If `reward` is not enabled in the theme configuration file, setting the article 
 
 ---
 
-The most basic configuration is done here. If you want to configure the theme in more detail, please continue reading the documentation.
+The most basic configuration is done here. If you want to configure the theme in more detail, please check the [Advanced Settings] section.
