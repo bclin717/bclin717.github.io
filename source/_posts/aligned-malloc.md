@@ -65,7 +65,6 @@ void *aligned_malloc(size_t bytes, size_t alignment) {
     return p2;
 }
 
-
 void aligned_free(void *p ) {
     free((void*)(*((size_t*) p - 1)));
 }

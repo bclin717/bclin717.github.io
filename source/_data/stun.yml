@@ -111,9 +111,9 @@ night_mode:
 # The layout for sidebar and content of site.
 layout:
   # The width of the content area in website.
-  content: 900px
+  content: 950px
   # The width of the sidebar in website.
-  sidebar: 270px
+  sidebar: 260px
   # The width between the content and the sidebar.
   content_sidebar_gap: 30px
   # The padding property of the main tag.
@@ -306,8 +306,8 @@ author:
 # If you can`t find a suitable icon, you can choose to display the original
 #   text by adding the "origin" prefix (e.g. origin:sf, then "sf" will be show).
 social:
-  github: https://github.com/bclin717 || github
-  linkedin: https://www.linkedin.com/in/bckevinlin/ || linkedin-square
+  github: https://github.com/bclin717 || "fab fa-github
+  linkedin: https://www.linkedin.com/in/bckevinlin/ || fab fa-linkedin
   # google: https://plus.google.com/ || google
   # twitter: https://twitter.com/ || twitter
   # youtube: https://youtube.com/ || youtube
