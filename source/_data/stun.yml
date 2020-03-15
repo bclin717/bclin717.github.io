@@ -306,7 +306,7 @@ author:
 # If you can`t find a suitable icon, you can choose to display the original
 #   text by adding the "origin" prefix (e.g. origin:sf, then "sf" will be show).
 social:
-  github: https://github.com/bclin717 || "fab fa-github
+  github: https://github.com/bclin717 || fab fa-github
   linkedin: https://www.linkedin.com/in/bckevinlin/ || fab fa-linkedin
   # google: https://plus.google.com/ || google
   # twitter: https://twitter.com/ || twitter

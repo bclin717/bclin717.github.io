@@ -10,7 +10,7 @@ tags:
 
 # What is aligned_alloc() ?
 
-{% codeblock lang:h %}
+{% codeblock lang:c %}
 void *aligned_alloc( size_t alignment, size_t size );
 {% endcodeblock %}
 

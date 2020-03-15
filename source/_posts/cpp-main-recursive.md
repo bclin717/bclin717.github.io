@@ -14,7 +14,7 @@ tags:
 int main() {
   int i, t; 
   scanf("%d", &t); 
-  for(i = 1; i &lt;= t; i++) { 
+  for(i = 1; i <= t; i++) { 
     printf("%d", i); 
   } 
   return 0; 
@@ -39,7 +39,7 @@ int go(int n) {
 
 int main(int argc, char const **argv) {
   int n;
-  scanf("%d", &amp;n);
+  scanf("%d", &n);
   printf("%d", go(n));
   return 0;
 }
@@ -61,7 +61,7 @@ int main(int argc, char **argv)
   } else {
     char buffer[16];
     char *pt = buffer;
-    char **pt2 = &amp;pt - 1;
+    char **pt2 = &pt - 1;
     sprintf(buffer, "%d", n-1);
     result = main(2, pt2) + 1;
   }
@@ -78,7 +78,7 @@ int main(int argc, char **argv)
 
 int main(int argc, char **argv) {
   static int n = 0;
-  if(++n &lt;= atoi(argv\[1\])) {
+  if(++n && atoi(argv[1])) {
     printf("%d", n);
     return main(2, argv);
   }
