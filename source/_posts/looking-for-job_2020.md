@@ -121,7 +121,7 @@ Computer Systems: A Programmer's Perspective
 
     中國口音，有點雜訊，聽得不是很清楚。
 
-  - 3/11 13:00 PM - 16:45 PM 一面
+  - 3/11 13:00 - 16:45 一面
     因為疫情改用 WebEx 線上面試。
 
     一開始先寫一份考卷，用 Google Document 傳過來寫，感覺跟 Google 很像。\
@@ -135,7 +135,7 @@ Computer Systems: A Programmer's Perspective
     我則問了這工作主要是做什麼，training program 的內容等等。\
     過幾天收到上次那位中國口音的 HR 電話，說我分數很高，想邀約二面。
 
-  - 3/17 13:00 PM - 18:00 PM 二面
+  - 3/17 13:00 - 18:00 二面
 
     排了五個人要車輪戰，中間夾了一個 Hiring Manager。因為面到後面很累，而且 WebEx 一直斷線，跟不同面試官換了好幾種方法都沒辦法解決，我一心只想趕快結束，不太記得很細節的內容。
     
@@ -160,7 +160,7 @@ Computer Systems: A Programmer's Perspective
     某日早晨突然就來了，通常不都會郵件通知嗎？
     問我的背景、對於機器學習跟資訊安全有什麼想法之類的。
 
-  - 3/16 5:00 PM 一面
+  - 3/16 17:00 一面
 
     三位面試官，請我簡報自我介紹一下，因為沒有提前說，我就拿去 NCCST 的那份介紹。
     了解我的背景之後，各自問了一些專案的內容問題。\
