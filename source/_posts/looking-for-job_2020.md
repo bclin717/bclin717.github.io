@@ -7,7 +7,7 @@ tags:
 top_image: https://i.imgur.com/Jj5Ec0g.jpg
 ---
 
-今年二月從研究所畢業了，三月初開始投履歷，雖然以前已經有很多工作經驗，但作為全職還是第一次紀錄，所以紀錄一下首次求職的過程。
+今年二月從研究所畢業了，二月底開始投履歷，雖然以前已經有很多工作經驗，但作為全職還是第一次，所以紀錄一下首次求職的過程。
 
 # 我的背景
 
@@ -25,7 +25,7 @@ top_image: https://i.imgur.com/Jj5Ec0g.jpg
 
 重新辦了一個 LeetCode 帳號，刷了共一百題，只刷 Easy 跟 Medium。過程中按照 Tag 刷，像是 Array、Linked List、Tree ... 這樣。
 
-投履歷後，途中陸陸續續大概翻了
+投履歷後，途中陸陸續續大概翻了這些書
 Fundamentals of Data Structures in C（資料結構）
 Operating System Concepts（恐龍本）
 The C Programming Language
@@ -63,7 +63,7 @@ Computer Systems: A Programmer's Perspective
   - 3/3 收到 Codility 6題 120分鐘
   - 3/6 寫完
     
-    我覺得都是題目都是 Leetcode Easy，頂多接近 Medium，但有一題 Tree 我寫壞了只有 2X，其他都 100。
+    我覺得都是題目都是 Leetcode Easy，頂多接近 Medium，但有一題 Tree 我寫壞了只有 2X 分，其他都 100。
 
   - 3/13 10:00 一面
   
@@ -75,8 +75,6 @@ Computer Systems: A Programmer's Perspective
 
     到了之後先做英文測驗，是用筆電做的，跟 TOEIC 差不多的模式，但題目比較少。我覺得我答的沒很好，有點翻車，但題目是簡單的。（做完馬上衝去廁所尬賽的狀態）
     比起一面多一些長官來，基本上就是講一樣的簡報。
-    
-    期待薪資我寫 60K x 14。
   
   - 3/30 14:28 寄信詢問面試結果 / 告知通過
 
@@ -166,7 +164,7 @@ Computer Systems: A Programmer's Perspective
 
     最後他們告訴我，因為疫情關係可能要等兩個禮拜才能有回覆。
     
-    面試官人都很好，一開始幫我倒水，後來帶我題開時跟我閒話家常，說大家都要去接小孩了，也跟我聊了我的同屆同學（雖然我不認識）。還有一個面試官則遞給我名片，笑著說都是同校畢業，以後業界走跳都遇得到，請多指教。
+    面試官人都很好，一開始幫我倒水，後來帶我離開時跟我閒話家常，說大家都要去接小孩了，也跟我聊了我的同屆同學（雖然我不認識）。還有一個面試官則遞給我名片，笑著說都是同校畢業，以後業界走跳都遇得到，請多指教。
 
   ### 結果：3/31 寄信給面試官詢問結果 / 回信告知人事經理凍結人員聘募
   
