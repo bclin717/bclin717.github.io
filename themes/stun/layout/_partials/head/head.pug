@@ -62,12 +62,14 @@ if theme.qihu360_site_verification
 if theme.sougou_site_verification
   meta(name="sogou_site_verification" content=theme.sougou_site_verification)
 
-!= open_graph()
 meta(property="og:url" content=full_url_for(page.path))
-meta(property="og:type" content=blog)
-meta(property="og:title" content=title)
-meta(property="og:description" content=description)
+meta(property="og:type" content=article)
+meta(property="og:title" content=config.title)
+meta(property="og:description" content=config.description)
 meta(property="og:image" content="")
+
+!= open_graph()
+
 
 meta(name="keywords" content=keywords)
 meta(name="description" content=description)
