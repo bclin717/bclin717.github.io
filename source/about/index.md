@@ -92,6 +92,7 @@ Graduated from NCTU with a master's degree in Computer Science.
   - Peak Design Everyday Backpack 30L - 2018 / 05 
   - Lowepro Inverse 200 AW - 2014 / 11 / 26 
 - 休閒筆電背包：
+  - Able Carry Daily Backpack XPAC
   - Incase Reform Tensaerlite 13 - 2019 / 01 / 28 
   - Incase Reform Sling Pack 13
 
