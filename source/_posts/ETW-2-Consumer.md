@@ -14,6 +14,14 @@ tags:
 
 顧名思義，Consumer 就是事件的消費者，消費的方式主要有兩種，從 Log file，或以 Real-time mode 從 Provider 收事件。在這裡，我們會先用到 [EVENT_TRACE_LOGFILE](https://docs.microsoft.com/en-us/windows/win32/api/evntrace/ns-evntrace-event_trace_logfilea) 這個結構。
 
+## 原來的設定
+
+我們需要先更改 pSessionProperties 的 LogFileMode，讓其支援 REAL TIME MODE：
+
+```C++
+pSessionProperties->LogFileMode = EVENT_TRACE_REAL_TIME_MODE | EVENT_TRACE_FILE_MODE_SEQUENTIAL;
+```
+
 
 ## 初始化結構
 首先我們要宣告一組 EVENT_TRACE_LOGFILE，並先定義收發的模式。
