@@ -71,13 +71,13 @@ Graduated from NCTU with a master's degree in Computer Science.
 - Corsair Force MP510 960G + Toshiba 3TB 7200rpm + Hitachi 2TB 7200rpm
 - Fractal Design R6 
 - Realforce TKL / R2TL-US5-BK - 2019 / 05 / 05 
-- Zowie EC1 Tyroo
+- SteelSeries Rival 650
 - BenQ Zowie XL2430  
 
 ## 其他設備
 - 耳機： Sony WF-1000XM3 - 2019 / 07 / 11 
 - Beyerdynamic MMX300 - 2019 / 01 / 26 
-- Philips Fidelio X2 - 2018 / 08 / 20 
+- Philips Fidelio X2HR - 2018 / 08 / 20 
 - 手機：Samsung Galaxy S10+ - 2019 / 03 
 - 行動電源：小米 10000mAh 高規版 - 2017 / 08 
 - 筆電：Lenovo ThinkPad x1 Carbon 2017 - 2017 / 08 
@@ -92,7 +92,7 @@ Graduated from NCTU with a master's degree in Computer Science.
   - Peak Design Everyday Backpack 30L - 2018 / 05 
   - Lowepro Inverse 200 AW - 2014 / 11 / 26 
 - 休閒筆電背包：
-  - Able Carry Daily Backpack XPAC
+  - Able Carry Daily Backpack XPAC - 2020 / 07 / 24
   - Incase Reform Tensaerlite 13 - 2019 / 01 / 28 
   - Incase Reform Sling Pack 13
 

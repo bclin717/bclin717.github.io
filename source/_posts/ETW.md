@@ -30,7 +30,7 @@ Session 分為很多種：
   - Global Logger Session
 - Private Logger Session
 
-我們在這裡先探討如何簡單地 Consume event tracing sessions。
+我們在這裡先探討如何簡單地使用 Event tracing sessions 把 Events 存到 Log file。
 
 # 使用 Event Tracing Session
 
@@ -38,7 +38,7 @@ Session 分為很多種：
 
 
 ## 定義常數
-首先定義 Logfile 的位置，以及 Session 的名稱。
+首先定義 Log file 的位置，以及 Session 的名稱。
 ```C++
 #define LOGFILE_PATH L"<FULLPATHTOLOGFILE.etl>"
 #define LOGSESSION_NAME L"My Event Trace Session"
