@@ -67,12 +67,12 @@ Graduated from NCTU with a master's degree in Computer Science.
 - MSi MPG X570 Gaming Plus
 - Micron DDR4-2666 16G x 2
 - EVGA RTX 2080 Ti Black - 2019 / 03 / 14 
-- Enermax Platimax D.F. 600W 
+- SeaSonic  SSR-650FM
 - Corsair Force MP510 960G + Toshiba 3TB 7200rpm + Hitachi 2TB 7200rpm
 - Fractal Design R6 
 - Realforce TKL / R2TL-US5-BK - 2019 / 05 / 05 
 - SteelSeries Rival 650
-- BenQ Zowie XL2430  
+- BenQ Zowie XL2546 - 2020 / 09 / 15  
 
 ## 其他設備
 - 耳機： Sony WF-1000XM3 - 2019 / 07 / 11 
