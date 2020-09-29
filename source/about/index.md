@@ -63,13 +63,13 @@ Graduated from NCTU with a master's degree in Computer Science.
 
 # 生活環境
 ## 遊戲電腦： 
-- AMD Ryzen 7 3700X
-- MSi MPG X570 Gaming Plus
-- Micron DDR4-2666 16G x 2
+- Intel i7-10700K
+- MSi Z490i Unify
+- Micron Ballistix DDR4-3600 16G x 2
 - EVGA RTX 2080 Ti Black - 2019 / 03 / 14 
-- SeaSonic  SSR-650FM
+- Corsair SF-750
 - Corsair Force MP510 960G + Toshiba 3TB 7200rpm + Hitachi 2TB 7200rpm
-- Fractal Design R6 
+- CoolerMaster NR200P
 - Realforce TKL / R2TL-US5-BK - 2019 / 05 / 05 
 - SteelSeries Rival 650
 - BenQ Zowie XL2546 - 2020 / 09 / 15  
