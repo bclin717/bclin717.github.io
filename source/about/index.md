@@ -67,7 +67,7 @@ Graduated from NCTU with a master's degree in Computer Science.
 - MSi Z490i Unify
 - Micron Ballistix DDR4-3600 16G x 2
 - EVGA RTX 2080 Ti Black - 2019 / 03 / 14 
-- Corsair SF-750
+- SilverStone SX700 Plat
 - Corsair Force MP510 960G + Toshiba 3TB 7200rpm + Hitachi 2TB 7200rpm
 - CoolerMaster NR200P
 - Realforce TKL / R2TL-US5-BK - 2019 / 05 / 05 
