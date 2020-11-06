@@ -1,6 +1,5 @@
 ---
 title: 何謂愛的極致？三島由紀夫《愛的饑渴》
-url: 3213.html
 id: 3213
 categories:
   - 讀書筆記
