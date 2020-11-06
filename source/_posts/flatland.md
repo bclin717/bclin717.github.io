@@ -2,7 +2,7 @@
 title: 多維空間旅行，談《平面國》
 categories:
   - 讀書筆記
-date: 2020-11-06 09:27:40
+date: 2020-11-06 17:25:40
 tags:
 top_image: https://i.imgur.com/iS4UGFZ.jpg
 ---
