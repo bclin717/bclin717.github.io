@@ -4,10 +4,9 @@ categories:
   - 讀書筆記
 date: 2018-04-21 4:32:01
 tags:
-top_image: https://imgur.com/wJEAsrU.jpg
+photos: 
+  - https://imgur.com/wJEAsrU.jpg
 ---
-
-![](https://imgur.com/wJEAsrU.jpg)
 
 說到日本文學，有一位神秘的作家，他的風格與日本文學相差甚遠，甚至可以被稱為是異端，而且差一點就得到了諾貝爾文學獎，這位作家正是戰後派的安部公房，日本極少數的前衛派（超現實主義）與存在主義作家。
 
