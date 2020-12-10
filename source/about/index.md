@@ -76,7 +76,7 @@ Graduated from NCTU with a master's degree in Computer Science.
 
 ## 其他設備
 - 耳機： Sony WF-1000XM3 - 2019 / 07 / 11 
-- Beyerdynamic MMX300 - 2019 / 01 / 26 
+- Sennheiser GSP 370 - 2020 / 12 / 06 
 - Philips Fidelio X2HR - 2018 / 08 / 20 
 - 手機：Google Pixel 5 - 2020 / 10 / 15
 - 行動電源：小米 10000mAh 高規版 - 2017 / 08 
