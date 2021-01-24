@@ -63,16 +63,18 @@ Graduated from NCTU with a master's degree in Computer Science.
 
 # 生活環境
 ## 遊戲電腦： 
-- Intel i7-10700K
+- Intel i7-10700K @ 5GHz
 - MSi Z490i Unify
 - Micron Ballistix DDR4-3600 16G x 2
 - EVGA RTX 2080 Ti Black - 2019 / 03 / 14 
-- SilverStone SX700-PT 
-- Corsair Force MP510 960G + Toshiba 3TB 7200rpm + Hitachi 2TB 7200rpm
+- Cooler Master V850 SFX GOLD 850W - 2021 / 01 / 24
+- Corsair Force MP510 960G + Toshiba 3TB 7200rpm
 - CoolerMaster NR200P
+    - 上風扇：Thermalright TL-C12 PRO x2
+    - 下風扇：Noctua NF-A12x25 PWM SSO2 x2
 - Realforce TKL / R2TL-US5-BK - 2019 / 05 / 05 
 - Razer Viper Ultimate - 2020 / 10 / 19
-- BenQ Zowie XL2546 - 2020 / 09 / 15  
+- BenQ Zowie XL2546 - 2020 / 09 / 15
 
 ## 其他設備
 - 耳機： Sony WF-1000XM3 - 2019 / 07 / 11 
