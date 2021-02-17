@@ -75,11 +75,12 @@ Graduated from NCTU with a master's degree in Computer Science.
 - Realforce TKL / R2TL-US5-BK - 2019 / 05 / 05 
 - Razer Viper Ultimate - 2020 / 10 / 19
 - BenQ Zowie XL2546 - 2020 / 09 / 15
+- Sennheiser GSP 370 - 2020 / 12 / 06 
 
 ## 其他設備
-- 耳機： Sony WF-1000XM3 - 2019 / 07 / 11 
-- Sennheiser GSP 370 - 2020 / 12 / 06 
-- Philips Fidelio X2HR - 2018 / 08 / 20 
+- 公司鍵盤：Leopold FC750R PD - 2021 / 02 / 14
+- 公司耳機：Philips Fidelio X2HR - 2018 / 08 / 20 
+- 無線耳機： Sony WF-1000XM3 - 2019 / 07 / 11 
 - 手機：Google Pixel 5 - 2020 / 10 / 15
 - 行動電源：小米 10000mAh 高規版 - 2017 / 08 
 - 筆電：Lenovo ThinkPad x1 Carbon 2017 - 2017 / 08 
