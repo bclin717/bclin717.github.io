@@ -7,6 +7,8 @@ tags: LeetCode
 top_image: https://i.imgur.com/yxiRgJr.jpg
 ---
 
+![](https://i.imgur.com/yxiRgJr.jpg)
+
 # 143. Reorder List / Medium
 
 You are given the head of a singly linked-list. The list can be represented as:
