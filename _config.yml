@@ -94,6 +94,5 @@ theme: stun
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repo: https://github.com/bclin717/bclin717.github.io.git
+  repo: https://gh_token@github.com/ds934118/ds934118.github.io.git
   branch: master
-
