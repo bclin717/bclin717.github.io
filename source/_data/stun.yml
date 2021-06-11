@@ -297,7 +297,7 @@ author:
     # Optional value: turn | shake
     animation: turn
   # Your favorite motto.
-  motto: Write code and love life
+  motto: 
 
 # Social links.
 # Value before `||` delimiter is the target link.
