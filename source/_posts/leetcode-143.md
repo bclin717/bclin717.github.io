@@ -36,11 +36,10 @@ You may not modify the values in the list's nodes. Only nodes themselves may be 
 
 # 思路
 
-這一題乍看複雜，其實不然。實際上可以被分成三個步驟：找中點、翻轉、合併。
-
-由於題目要求要在原來的 List 上進行操作，我們不能存到另一個新的 List。
-
-首先找到整個 List 的中點，接著翻轉（Reverse）後半部的 List，最後再將後半部 List 的節點一個一個插入到前半部 List。
+這一題乍看複雜，其實不然。實際上可以被分成三個步驟：找中點、翻轉、合併。 \
+由於題目要求要在原來的 List 上進行操作，我們不能存到另一個新的 List。\
+首先找到整個 List 的中點，將 List 從中點斷開，形成兩個獨立的 List。
+接著翻轉（Reverse）後半部的 List，最後再將後半部 List 的節點間隔地插入到前半部 List。
 
 前兩個步驟可以參考另外兩題：
 1. 876. Middle of the Linked List
@@ -50,7 +49,7 @@ You may not modify the values in the list's nodes. Only nodes themselves may be 
 使用快慢指標，快的指標走兩步，慢的走一步，當快指標到 List 的尾巴時，慢的會剛好在中間。
 
 ## 翻轉 / 合併 List
-好像沒什麼特別的，畫個圖就能理解了。
+好像沒什麼特別的，畫個圖就能理解了。很簡單的指標操作。
 
 # 效能
 
