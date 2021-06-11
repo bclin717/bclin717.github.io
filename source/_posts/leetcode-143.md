@@ -1,12 +1,13 @@
 ---
 title: 【LeetCode】143. Reorder List 解題報告
 categories:
-  - Leetcode
-date: 2016-05-03 22:42:56
-tags:
+  - LeetCode
+date: 2021-06-11 21:09:56
+tags: LeetCode
+top_image: https://i.imgur.com/yxiRgJr.jpg
 ---
 
-# 題目
+# 143. Reorder List / Medium
 
 You are given the head of a singly linked-list. The list can be represented as:
 
