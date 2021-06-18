@@ -57,7 +57,7 @@ You may not modify the values in the list's nodes. Only nodes themselves may be 
 # 效能
 
 ## Complexity 
-- Time Complexity: O(n)
+- Time Complexity: O(N)
 - Space Complexity: O(1)
 
 ## LeetCode Result
