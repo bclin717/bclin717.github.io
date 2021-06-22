@@ -69,7 +69,7 @@ tag_map:
 
 
 excerpt:
-  depth: 10
+  depth: 5  
   excerpt_excludes: []
   more_excludes: []
   hideWholePostExcerpts: true
