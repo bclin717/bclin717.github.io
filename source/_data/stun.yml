@@ -2,6 +2,12 @@
 # Theme Core Configuration Settings
 # ---------------------------------------------------------------
 
+excerpt:
+  depth: 1
+  excerpt_excludes: []
+  more_excludes: []
+  hideWholePostExcerpts: true
+
 # Remove unnecessary files after hexo generate. Introduced in Stun v1.4.0
 shake_file: true
 

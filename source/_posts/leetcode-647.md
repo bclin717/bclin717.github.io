@@ -7,7 +7,6 @@ tags: LeetCode
 photos:
     - https://i.imgur.com/BVRwFnV.jpg
 ---
-<!-- more -->
 # 647. Palindromic Substrings / Medium
 
 Given a string s, return the number of palindromic substrings in it.
@@ -16,7 +15,7 @@ A string is a palindrome when it reads the same backward as forward.
 
 A substring is a contiguous sequence of characters within the string.
 
- <!-- more -->
+<!-- more -->
 
 ## Example 1:
 > Input: s = "abc"
