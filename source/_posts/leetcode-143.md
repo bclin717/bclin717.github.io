@@ -4,9 +4,10 @@ categories:
   - LeetCode
 date: 2021-06-11 21:09:56
 tags: LeetCode
+excerpt: 
+photos:
+    - https://i.imgur.com/yxiRgJr.jpg
 ---
-
-![](https://i.imgur.com/yxiRgJr.jpg)
 
 # 143. Reorder List / Medium
 
@@ -20,8 +21,6 @@ Reorder the list to be on the following form:
 
 You may not modify the values in the list's nodes. Only nodes themselves may be changed.
 
-<!-- more -->
- 
 ## Example 1:
 ![](https://assets.leetcode.com/uploads/2021/03/04/reorder1linked-list.jpg)
 > Input: head = [1,2,3,4] \

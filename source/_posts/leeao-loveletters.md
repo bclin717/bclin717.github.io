@@ -6,6 +6,7 @@ categories:
   - 讀書筆記
 date: 2019-02-27 00:56:16
 tags:
+excerpt: 
 top_image: https://imgur.com/6Xru8xE.jpg
 ---
 ![](https://imgur.com/6Xru8xE.jpg)

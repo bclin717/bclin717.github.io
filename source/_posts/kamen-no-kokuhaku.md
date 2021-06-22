@@ -6,6 +6,7 @@ categories:
   - 讀書筆記
 date: 2018-08-11 02:01:25
 tags:
+excerpt: 
 photos: 
   - https://imgur.com/NVuaWOD.jpg
 ---

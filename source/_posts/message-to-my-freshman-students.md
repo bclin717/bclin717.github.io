@@ -4,6 +4,7 @@ categories:
   - 翻譯
 date: 2015-05-20 01:24:07
 tags:
+excerpt: 
 ---
 
 原文出自 http://www.huffingtonpost.com/keith-m-parsons/message-to-my-freshman-st_b_7275016.html

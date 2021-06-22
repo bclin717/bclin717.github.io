@@ -4,6 +4,7 @@ categories:
   - 讀書筆記
 date: 2018-01-22 22:49:42
 tags:
+excerpt: 
 photos: https://imgur.com/8XaFqzp.jpg
 ---
 

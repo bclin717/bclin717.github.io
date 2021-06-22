@@ -4,6 +4,7 @@ categories:
   - 讀書筆記
 date: 2020-02-16 19:10:00
 tags:
+excerpt: 
 top_image: https://i.imgur.com/bHyCBek.jpg
 ---
 

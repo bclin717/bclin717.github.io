@@ -6,6 +6,7 @@ categories:
   - 讀書筆記
 date: 2019-04-19 11:52:45
 tags: 余華
+excerpt: 
 photos: 
   - https://i.imgur.com/46Tw6K6.jpg
 ---

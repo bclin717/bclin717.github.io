@@ -4,6 +4,7 @@ categories:
   - 讀書筆記
 date: 2018-02-04 17:34:01
 tags:
+excerpt: 
 top_image: https://imgur.com/FuvXraL.jpg
 ---
 

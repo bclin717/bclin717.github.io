@@ -3,7 +3,9 @@ title: 軟體工程開發術：隕石開發法
 categories:
   - 翻譯
 date: 2018-06-01 20:56:21
+updated: 2018-06-01 20:56:21
 tags: 
+excerpt: 
 top_image: https://cdn-ak.f.st-hatena.com/images/fotolife/e/eiki_okuma/20180521/20180521164112.jpg
 ---
 
