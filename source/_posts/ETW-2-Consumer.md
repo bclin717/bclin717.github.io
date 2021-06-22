@@ -4,9 +4,8 @@ categories:
   - 軟體研討
 date: 2020-07-30 11:20:27
 tags:
-excerpt: 
 ---
-
+<!-- more -->
 前一篇文章介紹了 ETW 和簡單的使用方式，這次我們要加入 Consumer，使得我們可以即時接收事件。
 
 ![](https://i.imgur.com/aOTJ0dc.png)

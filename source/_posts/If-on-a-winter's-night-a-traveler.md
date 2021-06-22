@@ -6,10 +6,9 @@ categories:
   - 讀書筆記
 date: 2018-01-07 01:04:30
 tags:
-excerpt: 
 top_image: https://imgur.com/pVQ59Op.jpg
 ---
-
+<!-- more -->
 # 前言
 
 這本《如果在冬夜，一個旅人》（Se una notte d'inverno un viaggiatore（義） / If on a winter's night a traveler（英））（1979）是我在 2018 年閱讀的第一本書。出自義大利名作家 伊塔羅·卡爾維諾（Italo Calvino）之手。

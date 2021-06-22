@@ -4,10 +4,11 @@ categories:
   - LeetCode
 date: 2021-06-21 17:55:56
 tags: LeetCode
-excerpt: 
 photos:
     - https://i.imgur.com/BFYTsA1.jpg
 ---
+
+<!-- more -->
 
 # 139. Word Break / Medium
 

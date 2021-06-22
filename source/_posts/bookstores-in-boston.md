@@ -6,10 +6,9 @@ categories:
   - 日常筆記
 date: 2018-05-09 11:30:00
 tags:
-excerpt: 
 top_image: https://imgur.com/oqeNkdT.jpg
 ---
-
+<!-- more -->
 身為一個書蟲和工程師，出門就是喝咖啡，逛書店，即使是出國也不例外。這次來到 Boston 也逛了不少書店，特此紀錄，分享給有需要的人。
 
 # MIT Press Bookstore 

@@ -4,9 +4,8 @@ categories:
   - 軟體研討
 date: 2020-03-15 17:05:38
 tags:
-excerpt: 
 ---
-
+<!-- more -->
 因為面試被問到，所以就稍微研究了一下。
 
 # What is aligned_alloc() ?

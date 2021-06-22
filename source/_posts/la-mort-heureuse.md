@@ -4,10 +4,9 @@ categories:
   - 讀書筆記
 date: 2018-04-13 19:23:15
 tags:
-excerpt: 
 top_image: https://i.imgur.com/nsNAiQE.jpg
 ---
-
+<!-- more -->
 ![](https://i.imgur.com/nsNAiQE.jpg)
 
 1974年，這本卡繆的處女座《快樂的死》，在卡繆死後 14 年出版。這本書是卡繆在 24 歲時寫下的，生前從未出版。麥田在 2014 年就出版了這本書的繁中版本。於是我們得以從此書一窺少年卡繆的人生哲學。

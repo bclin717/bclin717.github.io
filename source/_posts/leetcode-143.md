@@ -4,11 +4,10 @@ categories:
   - LeetCode
 date: 2021-06-11 21:09:56
 tags: LeetCode
-excerpt: 
 photos:
     - https://i.imgur.com/yxiRgJr.jpg
 ---
-
+<!-- more -->
 # 143. Reorder List / Medium
 
 You are given the head of a singly linked-list. The list can be represented as:

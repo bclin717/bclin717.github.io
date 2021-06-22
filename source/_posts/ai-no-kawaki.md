@@ -5,10 +5,9 @@ categories:
   - 讀書筆記
 date: 2018-08-14 13:05:58
 tags:
-excerpt: 
 top_image: https://imgur.com/tzZy83I.jpg
 ---
-
+<!-- more -->
 ![](https://imgur.com/ViCz2JF.jpg)
 
 愛是什麼？是嫉妒？還是折磨自己的痛苦呢？ 渴望愛的結果又是如何？極致的愛必然帶有鮮明的死亡色彩吧。

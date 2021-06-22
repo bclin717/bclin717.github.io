@@ -4,11 +4,10 @@ categories:
   - LeetCode
 date: 2021-06-17 21:55:56
 tags: LeetCode
-excerpt: 
 photos:
     - https://i.imgur.com/BVRwFnV.jpg
 ---
-
+<!-- more -->
 # 647. Palindromic Substrings / Medium
 
 Given a string s, return the number of palindromic substrings in it.

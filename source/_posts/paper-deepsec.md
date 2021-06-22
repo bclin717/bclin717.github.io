@@ -6,9 +6,8 @@ categories:
   - 論文筆記
 date: 2019-02-19 12:09:11
 tags:
-excerpt: 
 ---
-
+<!-- more -->
 # 論文資訊
 - 標題：DEEPSEC: A Uniform Platform for Security Analysis of Deep Learning Model 
 - 作者：Xiang Ling, Shouling Ji, Jiaxu Zou, Jiannan Wang, Chunming Wu, Bo Li, Ting Wang 

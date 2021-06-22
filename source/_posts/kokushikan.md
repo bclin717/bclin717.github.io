@@ -4,11 +4,10 @@ categories:
   - 讀書筆記
 date: 2018-02-25 04:17:15
 tags:
-excerpt: 
 photos:
     - https://imgur.com/6NlXv8z.jpg
 ---
-
+<!-- more -->
 # 前言
 
 提到推理時，你會想到什麼呢？

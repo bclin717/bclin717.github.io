@@ -6,10 +6,9 @@ categories:
   - 讀書筆記
 date: 2018-06-16 22:07:42
 tags:
-excerpt: 
 top_image: https://imgur.com/foW07rf.jpg
 ---
-
+<!-- more -->
 ![](https://imgur.com/foW07rf.jpg)
 
 《非理性的人：存在主義研究經典》（Irrational Man）不僅書名下的漂亮，內容也是一絕。之前我因為閱讀尼采、卡繆的作品接觸到了存在主義，覺得非常有趣，因而一直想唸唸這本書。
