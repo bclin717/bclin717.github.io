@@ -4,6 +4,7 @@ node_js:
   - 12  
 
 cache:
+  apt: true
   directories:
     - node_modules
 
@@ -16,8 +17,8 @@ before_install:
 # Start: Build Lifecycle
 install:
   - npm install --save-dev hexo-render-pug hexo-renderer-stylus
-  - npm install --no-optional  
-  - npm install jquery-pjax
+  - npm install
+  - npm install pjax --save
   - npm install hexo-excerpt --save
   - npm install hexo-deployer-git --save
   

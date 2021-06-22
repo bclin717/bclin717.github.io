@@ -67,7 +67,6 @@ default_category: uncategorized
 category_map:
 tag_map:
 
-
 excerpt:
   depth: 5  
   excerpt_excludes: []
