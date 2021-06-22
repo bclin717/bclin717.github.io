@@ -4,7 +4,6 @@ categories:
   - LeetCode
 date: 2021-06-17 21:55:56
 tags: LeetCode
-top_image: https://i.imgur.com/BVRwFnV.jpg
 ---
 
 ![](https://i.imgur.com/BVRwFnV.jpg)
@@ -17,7 +16,7 @@ A string is a palindrome when it reads the same backward as forward.
 
 A substring is a contiguous sequence of characters within the string.
 
- 
+ <!-- more -->
 
 ## Example 1:
 > Input: s = "abc"

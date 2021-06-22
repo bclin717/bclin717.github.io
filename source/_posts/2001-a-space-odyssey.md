@@ -3,11 +3,14 @@ title: 科幻神作《2001太空漫遊》到底在演什麼？
 categories:
   - 電影筆記
 date: 2018-06-25 00:52:50
+updated: 2018-06-25 00:52:50
 tags: StanleyKubrick
 top_image: https://imgur.com/ofpBTaf.jpg
 ---
 
 這幾天，Stanley Kubrick 的經典之作《2001太空漫遊》（2001 : A Space Odyssey）（1968）在台灣的威秀影城重新上映了。身為一名計算機科學家兼科幻迷兼哲學迷兼電影迷，絕對是到電影院捧場的。電影院的觀影感受非常好，音效所製造出的宇宙壓迫感是在家裡無法比擬的。這次上映力求重現五十年前的觀影經驗，於是保留了中場休息，約莫在第 90 分鐘處，HAL 讀唇語的片段。
+
+<!-- more -->
 
 ![](https://imgur.com/1Fxh5JA.jpg) 
 

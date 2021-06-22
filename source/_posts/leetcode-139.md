@@ -4,7 +4,6 @@ categories:
   - LeetCode
 date: 2021-06-21 17:55:56
 tags: LeetCode
-top_image: https://i.imgur.com/BFYTsA1.jpg
 ---
 
 ![](https://i.imgur.com/BFYTsA1.jpg)
@@ -14,6 +13,8 @@ top_image: https://i.imgur.com/BFYTsA1.jpg
 Given a string s and a dictionary of strings wordDict, return true if s can be segmented into a space-separated sequence of one or more dictionary words.
 
 Note that the same word in the dictionary may be reused multiple times in the segmentation.
+
+<!-- more -->
 
  
 
