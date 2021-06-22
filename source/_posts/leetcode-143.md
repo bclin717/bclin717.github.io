@@ -7,8 +7,6 @@ tags: LeetCode
 photos:
     - https://i.imgur.com/yxiRgJr.jpg
 ---
- 
-<!-- more -->
 
 # 143. Reorder List / Medium
 
