@@ -15,7 +15,7 @@
   } else if (is_tag()) {
     title = __('title.tag') + ': ' + page.tag + title_suffix;
   } else if (is_post()) {
-    title = page.title || (__('post.untitled') + title_suffix);
+    title = (page.title || __('post.untitled')) + title_suffix;
   } else {
     if (page.type === 'tags') {
       title = __('title.tag') + title_suffix;
@@ -28,6 +28,10 @@
 
 meta(charset="UTF-8")
 meta(http-equiv="X-UA-Compatible" content="IE=edge")
+
+if (theme.kill_old_ie && theme.kill_old_ie.enable)
+  include ./kill-old-ie.pug
+
 meta(name="viewport" content="width=device-width, initial-scale=1")
 meta(name="format-detection" content="telephone=no")
 meta(name="apple-mobile-web-app-capable" content="yes")
@@ -64,9 +68,6 @@ if theme.sougou_site_verification
 
 != open_graph()
 
-
-meta(name="keywords" content=keywords)
-meta(name="description" content=description)
 title= title
 
 if theme.canonical
@@ -111,5 +112,6 @@ if theme.baidu_analytics
 if theme.tencent_analytics
   link(rel="dns-prefetch" href="https://tajs.qq.com")
 
+include ../../_third-party/advertising/index.pug
 include ../../_third-party/analytics/index.pug
 include ../config.pug

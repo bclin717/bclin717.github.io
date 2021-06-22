@@ -3,6 +3,8 @@
   var STUN_URL = 'https://github.com/liuyib/hexo-theme-stun/';
   var isNoHeader = !theme.header.enable || (is_post() && !theme.header.show_on.post);
   var isEnableNoHeader = !theme.header.enable || !theme.header.show_on.post;
+  var isShowReward = typeof page.reward === 'boolean' ? page.reward === true : (theme.reward.enable && is_post());
+  var isShowCC = typeof page.copyright === 'boolean' ? page.copyright === true : (theme.creative_commons.enable && is_post());
 
   var pjax = false;
   var dataPjax = {};
@@ -32,7 +34,9 @@ html(lang=config.language)
 
       main#main.main
         div.main-inner
-          div#content-wrap.content-wrap
+          div#content-wrap.content-wrap(
+            class=`${page.sidebar === false ? 'content-wrap--noside' : ''}`
+          )
             div#content.content(class=`${is_home() ? 'content-home' : ''}`)
               block content
 
@@ -42,7 +46,7 @@ html(lang=config.language)
             if page.comments
               include ./_partials/widgets/comments.pug
 
-          if theme.sidebar.enable
+          if page.sidebar !== false && theme.sidebar.enable
             div#sidebar-wrap.sidebar-wrap
               aside#sidebar.sidebar
                 include ./_partials/sidebar/sidebar.pug
@@ -75,5 +79,4 @@ html(lang=config.language)
       include ./_third-party/analytics/busuanzi.pug
 
     include ./_third-party/comments/index.pug
-    include ./_third-party/advertising/index.pug
     include ./_scripts/stun.pug

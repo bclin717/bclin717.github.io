@@ -46,7 +46,8 @@ sougou_site_verification:
 
 # The menu in the website header.
 # Value before `||` is the target link, value after `||` is the name of FontAwesome icon.
-# Usage: `Key: /link/ || fa(s|r|l|d|b) fa-iconname`
+# Usage(With Icon): `Key: /link/ || fa(s|r|l|d|b) fa-iconname`
+# Usage(No Icon)  : `Key: /link/`
 # Select your icon name, see: https://fontawesome.com/icons
 menu:
   home: / || fas fa-home
@@ -174,7 +175,7 @@ body:
     repeat: false
   # Mask effect of the background image.
   mask:
-    enable: true
+    enable: false
     # Opacity of mask (value: 0 ~ 1)
     opacity:
       # Opacity of the mask by default.
@@ -199,7 +200,7 @@ footer:
   # Copyright information.
   copyright:
     enable: true
-    # If not set, will be used `author` from Hexo main config (e.g. liuyib. All Rights Reserved.)
+    # If not set, will be used `author` from Hexo main config (e.g. liuyib All Rights Reserved)
     text:
     # Start time. If not set, the current year will be used.
     since:
@@ -271,7 +272,7 @@ back2top:
 # The sidebar of site.
 sidebar:
   enable: true
-  # Optional value: left | right
+  # Optional values: left | right
   position: right
   # The distance from the top of the page when the sidebar is fixed (Only `px` unit is supported)
   offsetTop: 20px
@@ -291,7 +292,7 @@ author:
     # Opacity of avatar (value: 0 ~ 1)
     opacity: 1
     # Mouse hover animation
-    # Optional value: turn | shake
+    # Optional values: turn | shake
     animation: turn
   # Your favorite motto.
   motto: hello world
@@ -442,11 +443,6 @@ post_widget:
     # Optional values: qzone | qq | weibo | wechat | douban | linkedin | facebook | twitter | google
     target: qzone, qq, weibo, wechat, douban, linkedin, facebook, twitter, google
 
-# Retain excerpt automatically.
-auto_excerpt:
-  enable: false
-  length: 150
-
 # Stick post to the top
 # Dependency: https://github.com/netcan/hexo-generator-index-pin-top/
 # !!! Don't enable this before install dependency by `npm install hexo-generator-index-pin-top --save` in hexo directory.
@@ -454,7 +450,7 @@ stick_top:
   # Position of icon
   # Optional values: left | right
   position: right
-    # Icon name in FontAwesome, see: https://fontawesome.com/icons
+  # Icon name in FontAwesome, see: https://fontawesome.com/icons
   icon: fas fa-thumbtack
   # Rotation Angle of icon.
   rotate: 45deg
@@ -486,6 +482,25 @@ gitalk:
   # Optional values: en | zh-CN | es-ES | fr | ru | zh-TW
   language:
 
+# Waline
+# See: https://waline.js.org/
+waline:
+  enable: false
+  # The URL of your server.
+  serverURL:
+  # Comment box placeholder.
+  placeholder: Just go go
+  # Gravatar style.
+  avatar: mp
+  # Custom comment header.
+  meta: nick,mail,link
+  # The number of comments per page.
+  pageSize: 10
+  # Optional values: en | zh-CN | zh-TW | jp
+  lang: zh-CN,zh-TW,en
+  # Article reading statistics.
+  visitor: false
+
 # Valine
 # See: https://valine.js.org/quickstart.html
 valine:
@@ -512,6 +527,22 @@ valine:
   recordIP: false
   # Optional values: en | zh-cn
   language:
+
+# MiniValine
+# See: https://github.com/MiniValine/MiniValine#Options
+minivaline:
+  enable: false
+  appId: # Your leancloud application appid
+  appKey: # Your leancloud application appkey
+  placeholder: Write a Comment # Comment box placeholder
+  adminEmailMd5: # The MD5 of Admin Email to show Admin Flag.
+  math: true # Support MathJax.
+  md: true # Support Markdown.
+  # MiniValine's display language depends on user's browser or system environment
+  # If you want everyone visiting your site to see a uniform language, you can set a force language value
+  # Optional values: en  | zh-CN | (and many more)
+  # More i18n info: https://github.com/MiniValine/minivaline-i18n
+  lang:
 
 # Livere
 # See: https://www.livere.com/
@@ -547,6 +578,27 @@ utterances:
   # ! Don't set this unless the URL of the script in the official website is changed.
   # ! -------------------------------------------------------------------------------
   script_url: https://utteranc.es/client.js
+
+# Facebook Comments
+# See: https://developers.facebook.com/docs/plugins/comments
+fbcomments:
+  enable: false
+  # The ID of your own Facebook App.
+  appId:
+  # See: https://developers.facebook.com/docs/internationalization#locales
+  # Example: en_US | zh_CN | zh_HK ... and so on. For detail, see: ☝
+  lang: en_US
+  # Number of comments displayed by default.
+  numPosts: 10
+  # See: https://developers.facebook.com/docs/plugins/comments#sorting
+  # Optional values: social | reverse_time | time
+  order_by: reverse_time
+  # Optional values: true | false
+  lazy: true
+  # Whether to optimize the display on the mobile.
+  # Optional values: true | false
+  mobile: true
+  width: 100%
 
 # ---------------------------------------------------------------
 # Statistics and Analytics config
@@ -604,6 +656,19 @@ algolia_search:
 local_search:
   enable: false
 
+# Auxiliary search buttons
+# ! -----------------------------------------------------------------------------------------
+# ! This feature can only be enabled if either `algolia_search` or `local_search` is enabled.
+# ! -----------------------------------------------------------------------------------------
+assist_search:
+  enable: false
+  # Show the Google Search button. Use `www.google.com` to search for what you type.
+  google: true
+  # Show the Bing Search button. Use `www.bing.com` to search for what you type.
+  bing: true
+  # Show the Baidu Search button. Use `www.baidu.com` to search for what you type.
+  baidu: true
+
 # ---------------------------------------------------------------
 # Background config
 # ---------------------------------------------------------------
@@ -623,8 +688,6 @@ canvas_ribbon:
 # Dependency: https://github.com/hustcc/canvas-nest.js
 canvas_nest:
   enable: false
-  # Whether to show on mobile.
-  onmobile: true
   # Color of lines.
   # RGB values, use `,` to separate.
   color: "0,0,0"
@@ -640,30 +703,25 @@ canvas_nest:
 # ---------------------------------------------------------------
 math:
   enable: false
-
-  # Only the page which has `math: true` in Front-matter will render.
-  # If true, it will load mathjax / katex srcipt EVERY PAGE.
+  # If true, this function will be enabled on every page.
+  # If false, this function will be enabled only if the page where `math: true` is set in `Front-matter`.
   per_page: false
-
-  # value: mathjax / katex (suggest: katex)
+  # ! -------------------------------------------------------------------------------
+  # ! Please see the documentation before using. See:
+  # ! https://theme-stun.github.io/docs/zh-CN/advanced/third-part.html#mathjax
+  # ! -------------------------------------------------------------------------------
+  # Optional values: mathjax | katex
   engine: katex
-
-  # See: https://github.com/mathjax/MathJax/
-  # hexo-renderer-kramed (or hexo-renderer-markdown-it-plus or hexo-renderer-pandoc) needed to full MathJax support.
   mathjax:
     cdn: https://cdn.jsdelivr.net/npm/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-
     # See: https://mhchem.github.io/MathJax-mhchem/
     mhchem:
       enable: false
       mhchem_js: https://cdn.jsdelivr.net/npm/mathjax-mhchem@3.3.2/mhchem.min.js
-
-  # hexo-renderer-markdown-it-plus (or hexo-renderer-markdown-it with markdown-it-katex plugin) needed to full Katex support.
   katex:
     cdn: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css
-
+    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
     copy_tex:
-      # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
       enable: true
       copy_tex_js: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/copy-tex.min.js
       copy_tex_css: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/copy-tex.css
@@ -676,12 +734,15 @@ math:
 # See: https://fancyapps.com/fancybox/3/
 fancybox: false
 
-# Whether to enlarge the image when clicked.
+# Click to enlarge picture.
 zoom_image:
   enable: true
   # The color of mask.
   # (Please use "" to wrap the value)
   mask_color: "rgba(0,0,0,0.6)"
+  # The gap between image and a edge of screen when image is enlarged.
+  # (Only `px` unit is supported)
+  gap_aside: 20px
 
 # If you are use "photos" attribute in the Front-matter,
 #   you can enable this to show images in waterfalls flow.
@@ -730,8 +791,8 @@ quicklink:
 # See: https://github.com/MoOx/pjax/
 pjax:
   enable: false
-  # Scrolling to the second screen when the page loaded.
-  scrollTo2screen: false
+  # When switching pages, scroll to the bottom of the top image.
+  avoid_banner: false
   # ! --------------------------------------------------
   # ! If you don't know the following, please ignore it.
   # ! --------------------------------------------------
@@ -741,7 +802,7 @@ pjax:
   switches:
   switchesOptions:
   history: true
-  # If you enable this, you must set `scrollTo2screen: false` firstly.
+  # If you enable this, you must set `avoid_banner: false` firstly.
   scrollTo: false
   scrollRestoration: false
   cacheBust: false
@@ -752,9 +813,8 @@ pjax:
 # Google AdSense
 google_adsense:
   enable: false
-  js_src: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
   client:
-  enable_page_level_ads: true
+  js_src: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
 
 # The links with `target="_blank"` attribute.
 external_link:
@@ -786,6 +846,16 @@ tag_cloud:
   # Maximum number of tags displayed. Change it if you have more than 200 tags.
   max_amount: 200
 
+# Eliminate the old version of IE browser (IE6~11).
+# See: https://support.dmeng.net/upgrade-your-browser.html
+kill_old_ie:
+  enable: false
+  # The URL of warning page (Please use "" to wrap the value).
+  # ! ----------------------------------------------------------------
+  # ! Usually you don't need to set this option, just use the default.
+  # ! ----------------------------------------------------------------
+  warning_url: https://support.dmeng.net/upgrade-your-browser.html
+
 # Assets
 # In theme directory (source/css)
 css: css
@@ -814,7 +884,16 @@ icon:
   prompt_info: fas fa-arrow-circle-right
   prompt_warning: fas fa-exclamation-circle
   prompt_error: fas fa-times-circle
+  waline_visitor: fas fa-eye
   valine_visitor: fas fa-eye
+  post_heading: fas fa-link
+  notetag_default: fas fa-arrow-circle-right
+  notetag_success: fas fa-check-circle
+  notetag_info: fas fa-info-circle
+  notetag_warning: fas fa-exclamation-circle
+  notetag_danger: fas fa-minus-circle
+  google: fab fa-google
+  # bing: fab fa-bing # not exist
 
 # Set a CDN address for the vendor you want to customize.
 # ! -------------------------------------------------------------------
@@ -866,6 +945,18 @@ cdn:
   valine:
   leancloud_storage:
 
+  # Waline
+  # See: https://github.com/lizheming/waline
+  # Example:
+  # waline: //unpkg.com/@waline/client@0.8.5/dist/Waline.min.js
+  waline:
+
+  # minivaline
+  # See: https://github.com/MiniValine/MiniValine
+  # Example:
+  # minivaline: //cdn.jsdelivr.net/npm/minivaline/dist/MiniValine.min.js
+  minivaline:
+
   # busuanzi
   # Using version: latest
   # See: https://busuanzi.ibruce.info/
@@ -890,7 +981,7 @@ cdn:
   # Using version: latest
   # See: https://github.com/hustcc/canvas-nest.js
   # Example:
-  # canvas_nest: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@latest/canvas-nest.min.js
+  # canvas_nest: //cdn.jsdelivr.net/npm/canvas-nest.js@1.0.1/dist/canvas-nest.min.js
   canvas_nest:
 
   # Using version: 3.5.7
