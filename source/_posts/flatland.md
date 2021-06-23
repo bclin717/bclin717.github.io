@@ -4,9 +4,9 @@ categories:
   - 讀書筆記
 date: 2020-11-06 17:25:40
 tags:
+excerpt: 平面國，一個經典科幻故事。
 top_image: https://i.imgur.com/iS4UGFZ.jpg
 ---
-<!-- more -->
 ![](https://i.imgur.com/iS4UGFZ.jpg)
 
 # 前言

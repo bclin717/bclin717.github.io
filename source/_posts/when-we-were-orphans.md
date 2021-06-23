@@ -7,9 +7,8 @@ tags:
 photos: 
   - https://imgur.com/VhdCqQ1.jpg
 ---
-<!-- more -->
 石黑一雄，我想許多人都不陌生，他正是 2017 年的諾貝爾獎得主。對於諾貝爾獎出現日本名字 – 卻不是入圍多次的村上春樹 – 我想很多人應摸不著頭緒。事實上，石黑一雄是日裔英國人，可以說他的作品正是道道地地的英國文學。他得獎的原因是「在偉大情感的小說世界中找到現實世界與虛幻深淵的連結。」（Kazuo Ishiguro, who, in novels of great emotional force, has uncovered the abyss beneath our illusory sense of connection with the world. ） 
-
+<!-- more -->
 《我輩孤雛》（When we were orphans）是石黑一雄在西元兩千年的作品。這部作品於我有些難以評價，雖前半段行文流暢，刻劃完整；然卻有些後繼無力，收尾稍嫌潦草、急切。
 
 故事敘述一名偵探 Christopher Banks（克里斯多夫 班克斯）追尋自己父母失蹤真相的過程，採篇章回憶記述的方式來描寫自己的故事。如此帶入的第一人稱筆法相當有趣，而石黑一雄寫來一氣呵成，溫順自然，就像是我們真的在閱讀著主角的日記殘篇。

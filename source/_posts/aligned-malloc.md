@@ -5,8 +5,9 @@ categories:
 date: 2020-03-15 17:05:38
 tags:
 ---
-<!-- more -->
 因為面試被問到，所以就稍微研究了一下。
+
+<!-- more -->
 
 # What is aligned_alloc() ?
 

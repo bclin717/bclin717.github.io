@@ -7,15 +7,13 @@ categories:
 date: 2019-02-19 12:09:11
 tags:
 ---
-<!-- more -->
 # 論文資訊
 - 標題：DEEPSEC: A Uniform Platform for Security Analysis of Deep Learning Model 
 - 作者：Xiang Ling, Shouling Ji, Jiaxu Zou, Jiannan Wang, Chunming Wu, Bo Li, Ting Wang 
 - 研究機構：Zhejiang University, Alibaba-Zhejiang University Joint Research Institute of Frontier Technologies, UIUC, Lehigh University 
 - 會議/期刊：IEEE S&P 2019 
 - 連結：[點我](https://nesa.zju.edu.cn/download/DEEPSEC%20A%20Uniform%20Platform%20for%20Security%20Analysis%20of%20Deep%20Learning%20Model.pdf)   
-- 
-- 
+<!-- more -->
 # Introduction
 對於人工智慧界的軟體工程現況，作者提出了幾個問題，第一、即目前對於評估深度學習模型品質的指標過於簡單。例如，誤判率（Misclassification Rate）並無法用來評估一個攻擊方法。 
 第二、之前的論文總是評估一小部分的攻擊或防禦方法。例如，許多防禦方法都只用一些強的攻擊，但其實很多時候能防禦強的攻擊不代表對於弱的攻擊免疫。

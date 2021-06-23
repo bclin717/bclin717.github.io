@@ -9,13 +9,12 @@ categories:
 date: 2019-03-18 19:30:08
 tags:
 ---
-<!-- more -->
 # 論文資訊
 - 標題：DeepHunter: Hunting Deep Neural Network Defects via Coverage-Guided Fuzzing 
 - 作者：Xiaofei Xie, Lei Ma, Felix Juefei-Xu, Hongxu Chen, Minhui Xue, Bo Li, Yang Liu, Jianjun Zhao, Jianxiong Yin, Simon See 
 - 機構：Nanyang Technological University、Harbin Institute of Technology、Carnegie Mellon University、University of Illinois at Urbana–Champaign、Kyushu University、NVIDIA AI Technology Center 
 - 會議/期刊：None 連結：https://arxiv.org/abs/1809.01266   
-
+<!-- more -->
 在傳統軟體測試領域，我們很常用一些自動化測試來產生測資並進行測試，進而找出漏洞，最後產生報告供測試人員分析。其中有一種測試方式叫做 Fuzz Testing（Fuzzing），意思就是模糊測試。這篇論文便是以同樣的概念對深度神經網路進行測試，由於作者同時也是 DeepGauge 的研究群，他們引用了自己在 DeepGauge 中提出的神經網路覆蓋率指標，在這邊論文提出了 Coverage-Guided Fuzzing，以程式碼覆蓋率為 feedback 去有效率地產生大量模糊測試的測資。這在傳統軟體測試領域是很常見的策略，像是 AFL、libFuzxer 及 VUzzer 就是 coverage based 的 Fuzzer。 
 基本上，一個 CGF 應該要進行有以下的 Loop：
 1.  從 Seed pool 裡面選擇 seed

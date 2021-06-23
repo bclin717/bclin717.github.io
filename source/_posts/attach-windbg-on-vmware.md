@@ -5,7 +5,6 @@ categories:
 date: 2020-05-17 15:07:58
 tags:
 ---
-<!-- more -->
 # Steps
 
 1. Install a Windows System in VMWare

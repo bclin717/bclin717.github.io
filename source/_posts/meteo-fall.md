@@ -7,12 +7,10 @@ updated: 2018-06-01 20:56:21
 tags: 
 top_image: https://cdn-ak.f.st-hatena.com/images/fotolife/e/eiki_okuma/20180521/20180521164112.jpg
 ---
-<!-- more -->
-原文：http://eiki.hatenablog.jp/entry/meteo_fall http://eiki.hatenablog.jp/entry/meteo_fall
 
 今天，要來介紹一下日本最具代表性的軟體開發手法。
-
 其名曰，**隕石開發法**[1]！  
+<!-- more -->
 
 # 第一節
 
@@ -114,6 +112,8 @@ top_image: https://cdn-ak.f.st-hatena.com/images/fotolife/e/eiki_okuma/20180521/
 希望你，以及我等，都能早一日適應。     
 
 這篇文是虛構的。和實際的人物、團體完全沒有關係。    
+
+原文：http://eiki.hatenablog.jp/entry/meteo_fall 
 
 
 # 註解

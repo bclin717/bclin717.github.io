@@ -7,7 +7,6 @@ categories:
 date: 2019-03-03 13:48:06
 tags:
 ---
-<!-- more -->
 # 論文資訊
 - 標題：DeepGauge: Multi-Granularity Testing Criteria for Deep Learning Systems 
 - 作者：Lei Ma, Felix Juefei-Xu, Fuyuan Zhang, Jiyuan Sun, Minhui Xue, Bo Li, Chunyang Chen, Ting Su, Li Li, Yang Liu, Jianjun Zhao, Yadong Wang 
@@ -16,6 +15,7 @@ tags:
 - 連結：https://arxiv.org/abs/1803.07519   
 - 這篇論文主要是提出了一種新型態的 Neural Network Coverage（神經網路覆蓋率），不同於 DeepXplore[1] 所提出的版本。
 
+<!-- more -->
 *   **Notation**
     *   Let N = {n1,n2, . . .} be a set of neurons of a DNN
     *   Let T = {x1, x2, . . .} be a set of test inputs
