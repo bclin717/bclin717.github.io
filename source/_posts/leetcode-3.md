@@ -5,7 +5,7 @@ categories:
 date: 2021-07-07 21:55:56
 tags: LeetCode
 photos:
-    - 
+    - https://i.imgur.com/0yI4u3T.jpg
 ---
 # 3. Longest Substring Without Repeating Characters / Medium
 
