@@ -2,10 +2,10 @@
 title: 【LeetCode】5. Longest Palindromic Substring 解題報告
 categories:
   - LeetCode
-date: 2021-07-22 16:50:00
+date: 2021-07-22 18:50:00
 tags: LeetCode
 photos:
-    - 
+    - https://i.imgur.com/FFKTLD3.jpg
 ---
 
 # 5. Longest Palindromic Substring / Medium
