@@ -51,7 +51,7 @@ A substring is a contiguous sequence of characters within the string.
 
 ### LeetCode Result
 
-- Runtime: 12ms
+- Runtime: 12 ms
 - Memory Usage: 7.6 MB 
 - https://leetcode.com/submissions/detail/509257996/
 
@@ -90,7 +90,7 @@ public:
 
 ### LeetCode Result
 
-- Runtime: 0ms
+- Runtime: 0 ms
 - Memory Usage: 13.3 MB 
 - https://leetcode.com/submissions/detail/509644577/
 
@@ -134,7 +134,7 @@ public:
 
 ### LeetCode Result
 
-- Runtime: 8ms
+- Runtime: 8 ms
 - Memory Usage: 6.9 MB 
 - https://leetcode.com/submissions/detail/427086355/
 

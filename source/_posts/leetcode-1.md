@@ -7,7 +7,8 @@ tags: LeetCode
 photos:
     - https://i.imgur.com/MdmnTmq.jpg
 ---
-# 3. 1. Two Sum / Easy
+
+# 1. Two Sum / Easy
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
@@ -50,7 +51,7 @@ Input: nums = [2,7,11,15], target = 9
 - Space Complexity: O(1)
 
 ### LeetCode Result
-- Runtime: 276ms
+- Runtime: 276 ms
 - Memory Usage: 10.2 MB 
 - https://leetcode.com/submissions/detail/521189952/
 
@@ -89,7 +90,7 @@ public:
 - Space Complexity: O(N)
 
 ### LeetCode Result
-- Runtime: 8ms
+- Runtime: 8 ms
 - Memory Usage: 10.7 MB 
 - https://leetcode.com/submissions/detail/521190869/
 

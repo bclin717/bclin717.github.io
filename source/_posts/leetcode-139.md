@@ -59,7 +59,7 @@ Note that the same word in the dictionary may be reused multiple times in the se
 
 ### LeetCode Result
 
-- Runtime: 0ms
+- Runtime: 0 ms
 - Memory Usage: 7.7 MB 
 - https://leetcode.com/submissions/detail/511033584/
 

@@ -7,6 +7,7 @@ tags: LeetCode
 photos:
     - https://i.imgur.com/0yI4u3T.jpg
 ---
+
 # 3. Longest Substring Without Repeating Characters / Medium
 
 Given a string s, find the length of the longest substring without repeating characters.
@@ -51,7 +52,7 @@ i, j 兩個指標代表目前的子字串頭尾，j 往前掃，每次都將新�
 - Space Complexity: O(N)
 
 ### LeetCode Result
-- Runtime: 4ms
+- Runtime: 4 ms
 - Memory Usage: 6.9 MB 
 - https://leetcode.com/submissions/detail/518287814/
 
