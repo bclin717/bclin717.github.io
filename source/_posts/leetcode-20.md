@@ -2,13 +2,13 @@
 title: 【LeetCode】20. Valid Parentheses 解題報告
 categories:
   - LeetCode
-date: 2021-07-30 22:02:56
+date: 2021-07-31 23:43:56
 tags: LeetCode
 photos:
     - https://i.imgur.com/nrSTM12.jpg
 ---
  
-# 20. Valid Parentheses / Medium
+# 20. Valid Parentheses / Easy
 
 Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
