@@ -17,7 +17,6 @@ Merge all the linked-lists into one sorted linked-list and return it.
 <!-- more --> 
 
 ## Example 1:
-![](https://assets.leetcode.com/uploads/2020/10/03/merge_ex1.jpg)
 > Input: lists = [[1,4,5],[1,3,4],[2,6]]
 > Output: [1,1,2,3,4,4,5,6]
 > Explanation: The linked-lists are:
