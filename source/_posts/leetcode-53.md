@@ -5,7 +5,7 @@ categories:
 date: 2021-08-07 10:06:56
 tags: LeetCode
 photos:
-    - https://i.imgur.com/5F5TECO.jpg
+    - https://i.imgur.com/RDsmlqB.jpg
 ---
  
 # 53. Maximum Subarray / Medium
