@@ -8,7 +8,7 @@ photos:
     - https://i.imgur.com/RDsmlqB.jpg
 ---
  
-# 53. Maximum Subarray / Medium
+# 53. Maximum Subarray / Easy
 
 Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
 
@@ -49,7 +49,7 @@ A subarray is a contiguous part of an array.
 
 - Runtime: 4 ms
 - Memory Usage: 13 MB 
-- https://leetcode.com/problems/maximum-subarray/
+- https://leetcode.com/submissions/detail/534479849/
 
 ## Code
 ```cpp
