@@ -33,8 +33,8 @@ You may not modify the values in the list's nodes. Only nodes themselves may be 
  
 
 ## Constraints:
-> The number of nodes in the list is in the range [1, 5 * 104]. \
-1 <= Node.val <= 1000
+> - The number of nodes in the list is in the range [1, 5 * 104].
+> - 1 <= Node.val <= 1000
 
 
 # 思路
@@ -68,16 +68,6 @@ You may not modify the values in the list's nodes. Only nodes themselves may be 
 
 # Code 
 ```cpp
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
 class Solution {
 public:
     void reorderList(ListNode* head) {
