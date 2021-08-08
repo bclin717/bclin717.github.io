@@ -37,6 +37,8 @@ Given an array of intervals where intervals[i] = [starti, endi], merge all overl
 想要判斷兩個區間 [a,b] 與 [c,d] 是重疊，有兩個條件
 1. a <= c
 2. c-b <= 0
+
+
 第一個條件可以藉由排序達成，所以我們先把 intervals 排序，這時裡面的 vector 會按照第一個元素的大小排列。
 接下來只要判斷第二個條件就可以了，如果 c 比 b 大，那就不是重疊了，可以直接把目前的 vector push進最後解答的 vector。如果重疊，我們就已經確定左邊界了（因為排序過，a 一定是最小的），至於右邊界，則是 max(b,d)，有可能出現 [c,d] 是 [a,b] 的子區間這種狀況。
 
