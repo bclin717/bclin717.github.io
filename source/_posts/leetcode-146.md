@@ -79,7 +79,7 @@ public:
     LRUCache(size_t capacity) : _capacity(capacity) { }
     
     int get(int key) {
-        if(const auto&& it = hmap.find(key); it != hmap.end()) {
+        if(auto&& it = hmap.find(key); it != hmap.end()) {
             dlist.splice(dlist.begin(), dlist, it->second);
             return it->second->second;
         }
@@ -87,7 +87,7 @@ public:
     }
     
     void put(int key, int value) {
-        if(const auto&& it = hmap.find(key); it != hmap.end()) {
+        if(auto&& it = hmap.find(key); it != hmap.end()) {
             dlist.splice(dlist.begin(), dlist, it->second);
             it->second->second = value;
             return;
