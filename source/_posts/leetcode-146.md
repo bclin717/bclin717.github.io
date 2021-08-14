@@ -50,7 +50,7 @@ The functions get and put must each run in O(1) average time complexity.
 > - At most 2 * 105 calls will be made to get and put.
 
 
-# Solution: DP
+# Solution
 ## 思路
 照著題目定義實作即可。
 
