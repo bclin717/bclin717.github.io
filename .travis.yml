@@ -22,6 +22,8 @@ install:
   - npm install hexo-excerpt --save
   - npm install hexo-deployer-git --save
   - npm install hexo-hide-posts --save
+  - npm uninstall hexo-generator-index --save
+  - npm install hexo-generator-index-pin-top --save
   
 script:
   - hexo clean
