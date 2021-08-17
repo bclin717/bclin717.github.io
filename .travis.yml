@@ -21,6 +21,7 @@ install:
   - npm install pjax --save
   - npm install hexo-excerpt --save
   - npm install hexo-deployer-git --save
+  - npm install hexo-hide-posts --save
   
 script:
   - hexo clean
