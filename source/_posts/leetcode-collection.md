@@ -2,7 +2,7 @@
 title: 【LeetCode】解題報告
 categories:
   - LeetCode
-date: 2021-08-17 16:50:00
+date: 2021-08-17 22:01:00
 top: true
 tags: LeetCode
 hidden: false
@@ -16,6 +16,8 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 ## Array & Strings
 ### Easy 
 [1. Two Sum](https://bclin.tw/2021/07/12/leetcode-1/)
+
+[26. Remove Duplicates from Sorted Array](https://bclin.tw/2021/08/20/leetcode-26/)
 
 ### Medium
 [3. Longest Substring Without Repeating Characters](https://bclin.tw/2021/07/07/leetcode-3/)
