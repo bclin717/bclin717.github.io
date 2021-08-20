@@ -57,6 +57,12 @@ The judge will test your solution with the following code:
 
 # Solution: 
 ## 思路
+
+
+因為 array 是排序過的，我們可以用一個指標 i 先往後移動，掠過前後相同的元素，尋找不同的元素。
+另一個指標則指在前方，理想上 index 0 應該放最小的，index 1 則是次小的，找到不同的元素時，就放到前面的指標。變相把不重複的元素放在最前面。
+
+
 ## 效能
 
 ### Complexity 

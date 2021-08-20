@@ -19,6 +19,8 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [26. Remove Duplicates from Sorted Array](https://bclin.tw/2021/08/20/leetcode-26/)
 
+[122. Best Time to Buy and Sell Stock II](https://bclin.tw/2021/08/20/leetcode-122/)
+
 ### Medium
 [3. Longest Substring Without Repeating Characters](https://bclin.tw/2021/07/07/leetcode-3/)
 
