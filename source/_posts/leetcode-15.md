@@ -31,7 +31,7 @@ Notice that the solution set must not contain duplicate triplets.
 
 ## Constraints:
 > 0 <= nums.length <= 3000
-> -105 <= nums[i] <= 105
+> -10^5 <= nums[i] <= 10^5
 
 # Solution: Three Pointers
 ## 思路

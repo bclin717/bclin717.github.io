@@ -46,8 +46,8 @@ The functions get and put must each run in O(1) average time complexity.
 
 ## Constraints:
 > - 1 <= capacity <= 3000
-> - 0 <= key <= 104
-> - 0 <= value <= 105
+> - 0 <= key <= 10^4
+> - 0 <= value <= 10^5
 > - At most 2 * 105 calls will be made to get and put.
 
 

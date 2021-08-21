@@ -38,6 +38,13 @@ Merge all the linked-lists into one sorted linked-list and return it.
 > Input: lists = [[]]
 > Output: []
 
+## Constaints
+> - k == lists.length
+> - 0 <= k <= 10^4
+> - 0 <= lists[i].length <= 500
+> - -10^4 <= lists[i][j] <= 10^4
+> - lists[i] is sorted in ascending order.
+> - The sum of lists[i].length won't exceed 10^4.
 
 # Solution 1: Merge lists one by one (Recursion)
 ## 思路

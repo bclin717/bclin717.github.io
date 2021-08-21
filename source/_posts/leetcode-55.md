@@ -30,8 +30,8 @@ Return true if you can reach the last index, or false otherwise.
 
 
 ## Constraints:
-> - 1 <= nums.length <= 104
-> - 0 <= nums[i] <= 105
+> - 1 <= nums.length <= 10^4
+> - 0 <= nums[i] <= 10^5
  
 
 

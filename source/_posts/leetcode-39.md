@@ -42,6 +42,11 @@ It is guaranteed that the number of unique combinations that sum up to target is
 > Input: candidates = [1], target = 2
 > Output: [[1,1]]
 
+## Constraints
+> - 1 <= candidates.length <= 30
+> - 1 <= candidates[i] <= 200
+> - All elements of candidates are distinct.
+> - 1 <= target <= 500
 
 
 # Solution: Backtracking / DFS

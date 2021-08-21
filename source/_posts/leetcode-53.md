@@ -30,8 +30,8 @@ A subarray is a contiguous part of an array.
 > Output: 23
 
 ## Constraints:
-> -  1 <= nums.length <= 3 * 104
-> - -105 <= nums[i] <= 105
+> -  1 <= nums.length <= 3 * 10^4
+> - -10^5 <= nums[i] <= 10^5
  
 
 # Solution: Map

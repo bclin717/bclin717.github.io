@@ -29,7 +29,7 @@ An Anagram is a word or phrase formed by rearranging the letters of a different 
 > Output: [["a"]]
 
 ## Constraints:
-> - 1 <= strs.length <= 104
+> - 1 <= strs.length <= 10^4
 > - 0 <= strs[i].length <= 100
 > - strs[i] consists of lower-case English letters.
 

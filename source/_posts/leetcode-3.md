@@ -35,6 +35,10 @@ Given a string s, find the length of the longest substring without repeating cha
 > Input: s = ""
 > Output: 0
 
+## Constraints:
+> - 0 <= s.length <= 5 * 10^4
+> - s consists of English letters, digits, symbols and spaces.
+
 # Solution 1: Sliding Window / Brute Force
 ## 思路
 

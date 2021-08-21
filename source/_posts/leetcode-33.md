@@ -33,6 +33,13 @@ You must write an algorithm with O(log n) runtime complexity.
 > Input: nums = [1], target = 0
 > Output: -1
 
+## Constraints
+> - 1 <= nums.length <= 5000
+> - -10^4 <= nums[i] <= 10^4
+> - All values of nums are unique.
+> - nums is guaranteed to be rotated at some pivot.
+> - -10^4 <= target <= 10^4
+
 # Solution 1: Brute Force (Optimized)
 ## 思路
 題目寫要 O(log n) 的複雜度，理論上應該是要找出中間，判斷 target 是在前段還是後段，然後用 binary search，但這題寫出來不知為什麼沒比較快，又比較複雜，果斷放棄 XD

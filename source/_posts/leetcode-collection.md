@@ -21,6 +21,8 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [122. Best Time to Buy and Sell Stock II](https://bclin.tw/2021/08/20/leetcode-122/)
 
+[217. Contains Duplicate](https://bclin.tw/2021/08/21/leetcode-217)
+
 ### Medium
 [3. Longest Substring Without Repeating Characters](https://bclin.tw/2021/07/07/leetcode-3/)
 
@@ -29,6 +31,9 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 [15. 3Sum](https://bclin.tw/2021/07/29/leetcode-15/)
 
 [49. Group Anagrams](https://bclin.tw/2021/08/06/leetcode-49/)
+
+[189. Rotate Array](https://bclin.tw/2021/08/21/leetcode-189)
+
 
 ## Linked List
 ### Easy 
