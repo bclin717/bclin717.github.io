@@ -21,7 +21,11 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [122. Best Time to Buy and Sell Stock II](https://bclin.tw/2021/08/20/leetcode-122/)
 
+[136. Single Number](https://bclin.tw/2021/08/22/leetcode-136/)
+
 [217. Contains Duplicate](https://bclin.tw/2021/08/21/leetcode-217)
+
+[350. Intersection of Two Arrays II](https://bclin.tw/2021/08/22/leetcode-350)
 
 ### Medium
 [3. Longest Substring Without Repeating Characters](https://bclin.tw/2021/07/07/leetcode-3/)
