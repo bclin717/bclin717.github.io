@@ -19,11 +19,15 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [26. Remove Duplicates from Sorted Array](https://bclin.tw/2021/08/20/leetcode-26/)
 
+[66. Plus One](https://bclin.tw/2021/08/22/leetcode-66)
+
 [122. Best Time to Buy and Sell Stock II](https://bclin.tw/2021/08/20/leetcode-122/)
 
 [136. Single Number](https://bclin.tw/2021/08/22/leetcode-136/)
 
 [217. Contains Duplicate](https://bclin.tw/2021/08/21/leetcode-217)
+
+[283. Move Zeroes](https://bclin.tw/2021/08/22/leetcode-283)
 
 [350. Intersection of Two Arrays II](https://bclin.tw/2021/08/22/leetcode-350)
 
