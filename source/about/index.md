@@ -7,7 +7,6 @@ top_image:
 # Who am I ? 
 BC Lin a.k.a. Kevin
 Graduated from NCTU with a master's degree in Computer Science.
-
 - Cyber Security
 - Software Testing / Quality Assurance
 
@@ -28,9 +27,8 @@ Graduated from NCTU with a master's degree in Computer Science.
 # 興趣
 - 寫程式 
     - 主寫 C/C++ 
-    - 略懂 C#、JAVA、Python、Golang
-    - 略懂 PyTorch、OpenCV
-    - Fuzz Testing / Symbolic Execution
+    - Fuzz Testing
+    - Windows Kernel 
     
 - 運動
     - 排球
@@ -80,10 +78,10 @@ Graduated from NCTU with a master's degree in Computer Science.
 ## 其他設備
 - 公司鍵盤：Leopold FC750R PD - 2021 / 02 / 14
 - 公司耳機：Philips Fidelio X2HR - 2018 / 08 / 20 
-- 無線耳機： Sony WF-1000XM3 - 2019 / 07 / 11 
-- 手機：Google Pixel 5 - 2020 / 10 / 15
-- 行動電源：小米 10000mAh 高規版 - 2017 / 08 
+- 無線耳機： Sony WF-1000XM4 - 2021 / 08 / 25 
+- 手機：Google Pixel 6 - 2021 / 11 / 02
 - 筆電：Lenovo ThinkPad x1 Carbon 2017 - 2017 / 08 
+- 公司筆電：Lenovo ThinkPad x1 Carbon 2020 
 
 ## 相機
 - 相機：Pentax K-5 II - 2014 / 05 
@@ -101,5 +99,5 @@ Graduated from NCTU with a master's degree in Computer Science.
 
 
 ## 咖啡
-- 磨豆機：AKIRA 正晃行 - 2019 / 01 / 28 
+- 磨豆機：Fellow Ode - 2021 / 09 / 01 
 - 手沖壺：Fellow Stagg 600ml - 2018 / 11

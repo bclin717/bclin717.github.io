@@ -155,37 +155,43 @@ public:
 class Solution {
 public:
     string longestPalindrome(string s) {
-        int n = s.size();
-        if(n == 1) return s;
-        string T;
-        
-        T += "$#";
-        for(int i = 0; i < n; ++i) {
-            T += s[i];
-            T += "#";
-        }
-        T += "^";
-        n = T.size();
+        string origin_s(s);
+        s = insertString(s);
+        const int n = s.size();
         
         vector<int> P(n, 0);
         int R = 0, C = 0, maxIdx = 0;
         int i_mirror;
         for(int i = 1; i < n-1; ++i) {
             i_mirror = C - (i - C);
-            P[i] = 0; // Case 3
-            if(R > i && P[i_mirror] + i < R) { // Case 1
+            
+            if(R > i && P[i_mirror] + i < R) {
                 P[i] = P[i_mirror];
+            } else if(R > i && P[i_mirror] + i > R) {
+                P[i] = R - i;
+                while(s[i + P[i] + 1] == s[i - P[i] - 1]) ++P[i];
+                R = i + P[i];
+                C = i;
             } else {
-                if(R > i) 
-                    P[i] = R - i; // Case 2
-                while(T[i + P[i] + 1] == T[i - P[i] - 1]) 
-                    ++P[i];
+                P[i] = 0;
+                while(s[i + P[i] + 1] == s[i - P[i] - 1]) ++P[i];
                 R = i + P[i];
                 C = i;
             }
-            if(P[i] > P[maxIdx]) 
-                maxIdx = i;
+            if(P[i] > P[maxIdx]) maxIdx = i;
         }
-        return s.substr((maxIdx-1-P[maxIdx]) / 2, P[maxIdx]);
+        return origin_s.substr((maxIdx - P[maxIdx] - 1) / 2, P[maxIdx]);
     }
+    
+    string insertString(const string& s) {
+        string newStr = "$#";
+        const int n = s.size();
+        for(int i = 0; i < n; ++i) {
+            newStr += s[i];
+            newStr += "#";
+        }
+        newStr += "^";
+        return newStr;
+    }
+};
 ```
