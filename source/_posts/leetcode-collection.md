@@ -80,7 +80,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [340. Longest Substring with At Most K Distinct Characters]()
 
-[344. Reverse String]()
+[344. Reverse String](https://bclin.tw/2021/08/02/leetcode-344)
 
 [454. 4Sum II]()
 
