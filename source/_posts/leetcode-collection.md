@@ -37,7 +37,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [217. Contains Duplicate](https://bclin.tw/2021/08/21/leetcode-217)
 
-[242. Valid Anagram]()
+[242. Valid Anagram](https://bclin.tw/2021/08/22/leetcode-242)
 
 [283. Move Zeroes](https://bclin.tw/2021/08/22/leetcode-283)
 
