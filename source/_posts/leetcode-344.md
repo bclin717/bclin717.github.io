@@ -39,7 +39,7 @@ You must do this by modifying the input array in-place with O(1) extra memory.
 
 ### Complexity 
 - Time Complexity: O(N)
-- Space Complexity: O(1))
+- Space Complexity: O(1)
 
 ### LeetCode Result
 

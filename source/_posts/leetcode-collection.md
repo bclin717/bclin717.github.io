@@ -43,7 +43,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [350. Intersection of Two Arrays II](https://bclin.tw/2021/08/22/leetcode-350)
 
-[387. First Unique Character in a String]()
+[387. First Unique Character in a String](https://bclin.tw/2021/08/22/leetcode-387)
 
 ### Medium
 [3. Longest Substring Without Repeating Characters](https://bclin.tw/2021/07/07/leetcode-3/)
