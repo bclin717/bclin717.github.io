@@ -37,13 +37,13 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [217. Contains Duplicate](https://bclin.tw/2021/08/21/leetcode-217)
 
-[242. Valid Anagram](https://bclin.tw/2021/08/22/leetcode-242)
+[242. Valid Anagram](https://bclin.tw/2022/01/10/leetcode-242/)
 
 [283. Move Zeroes](https://bclin.tw/2021/08/22/leetcode-283)
 
 [350. Intersection of Two Arrays II](https://bclin.tw/2021/08/22/leetcode-350)
 
-[387. First Unique Character in a String](https://bclin.tw/2021/08/22/leetcode-387)
+[387. First Unique Character in a String](https://bclin.tw/2022/01/10/leetcode-387/)
 
 ### Medium
 [3. Longest Substring Without Repeating Characters](https://bclin.tw/2021/07/07/leetcode-3/)
@@ -80,7 +80,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [340. Longest Substring with At Most K Distinct Characters]()
 
-[344. Reverse String](https://bclin.tw/2021/08/02/leetcode-344)
+[344. Reverse String](https://bclin.tw/2022/01/10/leetcode-344/)
 
 [454. 4Sum II]()
 
@@ -90,7 +90,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [76. Minimum Window Substring]()
 
-[239. Sliding Window Maximum](https://bclin.tw/2021/08/02/leetcode-239/)
+[239. Sliding Window Maximum](https://bclin.tw/2022/01/09/leetcode-239/)
 
 
 ## Linked List
@@ -141,7 +141,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [103. Binary Tree Zigzag Level Order Traversal]()
 
-[116. Populating Next Right Pointers in Each Node]()
+[116. Populating Next Right Pointers in Each Node](https://bclin.tw/2022/01/11/leetcode-116/)
 
 [130. Surrounded Regions]()
 
