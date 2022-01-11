@@ -12,6 +12,8 @@ photos:
 
 眾所周知，Binary Tree Traversal 有三種方式，In-Order（中序法）、Pre-Order（前序法）與 Post-Order（後序法）。他們的差異主要是尋訪時，父節點相對於子節點的順序。
 
+<!-- more -->
+
 In-Order:   左中右
 Pre-Order:  中左右
 Post-Order: 左右中
