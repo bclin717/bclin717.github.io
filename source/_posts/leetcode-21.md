@@ -140,7 +140,7 @@ public:
 
 ### Complexity 
 - Time Complexity: O(N+M)
-- Space Complexity: O(1)
+- Space Complexity: O(N+M)
 
 ### LeetCode Result
 
