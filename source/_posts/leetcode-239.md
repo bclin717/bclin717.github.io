@@ -18,7 +18,6 @@ Return the max sliding window.
 <!-- more --> 
 
 ## Example 1:
-![](https://assets.leetcode.com/uploads/2020/10/03/merge_ex1.jpg)
 > Input: nums = [1,3,-1,-3,5,3,6,7], k = 3
 > Output: [3,3,5,5,6,7]
 > Explanation: 
