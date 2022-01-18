@@ -159,7 +159,7 @@ private:
 # Solution 3: Topological Sort / BFS
 ## 思路
 
-將課程的依賴性畫成一張圖，不難發現會是一張有向圖，而題目要問的，其實就是判斷這張圖是否是一張 DAG（Directed Acyclic Graph, 
+將課程的依賴性畫成一張圖，不難發現會是一張有向圖，而題目要問的，其實就是判斷這張圖是否是一張 DAG（Directed Acyclic Graph, 有向無環圖）
 
 ![](https://leetcode.com/problems/course-schedule/Figures/207/207_graph.png)
 
