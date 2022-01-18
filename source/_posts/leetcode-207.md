@@ -174,7 +174,7 @@ Topological Sort 的過程如動畫：
 ## 效能
 
 ### Complexity 
-- Time Complexity: O(|E|+|V|), where |V|∣V∣ is the number of courses, and |E|∣E∣ is the number of dependencies.
+- Time Complexity: O(|E|+|V|), where |V| is the number of courses, and |E| is the number of dependencies.
 - Space Complexity: O(|E|+|V|), with the same denotation as in the above time complexity.
 
 ### LeetCode Result
