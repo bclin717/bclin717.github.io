@@ -147,7 +147,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [200. Number of Islands]()
 
-[207. Course Schedule]()
+[207. Course Schedule](https://bclin.tw/2022/01/18/leetcode-207/)
 
 [210. Course Schedule II]()
 
