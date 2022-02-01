@@ -47,9 +47,9 @@ Return the chair number that the friend numbered targetFriend will sit on.
 
 ## Comstraints
 > - n == times.length
-> - 2 <= n <= 104
+> - 2 <= n <= 10^4
 > - times[i].length == 2
-> - 1 <= arrivali < leavingi <= 105
+> - 1 <= arrivali < leavingi <= 10^5
 > - 0 <= targetFriend <= n - 1
 > - Each arrivali time is distinct.
 
