@@ -201,7 +201,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [56. Merge Intervals](https://bclin.tw/2021/08/09/leetcode-56/)
 
-[75. Sort Colors]()
+[75. Sort Colors](https://bclin.tw/2022/02/02/leetcode-75/)
 
 [162. Find Peak Element]()
 
