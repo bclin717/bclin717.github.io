@@ -107,7 +107,7 @@ Accessing A(8) actually accesses nums[6].
 Accessing A(9) actually accesses nums[8].
 ```
 
-我們是交叉存取，所以分堆時也是這樣。非常有趣的想法。
+我們不是順序存取，而是照個 Wiggle 的順序存取，所以分堆時就可以分成 Wiggle 的樣子。非常有趣的想法。
 
 ## 效能
 
@@ -133,10 +133,8 @@ public:
         nth_element(nums.begin(), midptr, nums.end());
         int mid = *midptr;
         while (j <= k) {
-            if (A(j) > mid) 
-				swap(A(i++), A(j++));
-            else if (A(j) < mid) s
-				swap(A(j), A(k--));
+            if (A(j) > mid) swap(A(i++), A(j++));
+            else if (A(j) < mid) swap(A(j), A(k--));
             else ++j;
         }
     }
