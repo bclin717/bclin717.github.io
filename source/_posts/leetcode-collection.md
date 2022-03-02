@@ -291,6 +291,8 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [143. Reorder List](https://bclin.tw/2021/06/11/leetcode-143/)
 
+[324. Wiggle Sort](https://bclin.tw/2022/03/02/leetcode-324/)
+
 [647. Palindromic Substrings](https://bclin.tw/2021/06/17/leetcode-647/)
 
 [1942. The Number of the Smallest Unoccupied Chair](https://bclin.tw/2022/02/01/leetcode-1942)
