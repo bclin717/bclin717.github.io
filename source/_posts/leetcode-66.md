@@ -40,9 +40,11 @@ You may assume the integer does not contain any leading zero, except the number 
 # Solution
 ## 思路 
 
-基本上就是加法器的概念。
-每位加起來等於除十的餘數。如果加起來超過十，Carry Flag（進位）就會設為 1。
-最後要檢查 Carry Flag 還是不是設 1，是的話代表需要進位。
+從最後一位開始看，如果小於 9，基本上加一後就可以回傳了。
+如果大於 9，就設成零，以此類推。
+最後如果走到迴圈結束都沒有回傳，就表示剛好加爆了，要進位，
+在陣列最前面插入 1，回傳。
+
 
 ## 效能
 
@@ -53,36 +55,26 @@ You may assume the integer does not contain any leading zero, except the number 
 ### LeetCode Result
 
 - Runtime: 0 ms
-- Memory Usage: 8.7 MB 
-- https://leetcode.com/submissions/detail/538757154/
+- Memory Usage: 8.8 MB 
+- https://leetcode.com/submissions/detail/690241186/
 
 ## Code
 ```cpp
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
-        int n = digits.size();
-        ++digits[n-1];
-        bool carry = digits[n-1] == 10 ? true : false;
-        if(carry == false) return digits;
+        int n = digits.size()-1;
         
-        digits[n-1] = 0;
-        for(int i = n-2; i >= 0; --i) {
-            if(carry) {
+        for(int i = n; i >= 0; --i) {
+            if(digits[i] < 9) {
                 ++digits[i];
-                carry = false;
+                return digits;
             }
-            
-            if(digits[i] == 10) {
-                digits[i] = 0;
-                carry = true;
-            }
+            digits[i] = 0;
         }
         
-        if(carry) {
-            digits.insert(digits.begin(), 1);
-        }
-        return digits;
+        digits.insert(digits.begin(), 1);
+        return digits;    
     }
 };
 ```
