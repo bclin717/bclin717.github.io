@@ -90,27 +90,21 @@ public:
 - Space Complexity: O(N)
 
 ### LeetCode Result
-- Runtime: 8 ms
-- Memory Usage: 10.7 MB 
-- https://leetcode.com/submissions/detail/521190869/
+- Runtime: 9 ms
+- Memory Usage: 10.9 MB 
+- https://leetcode.com/submissions/detail/690811629/
 
 ## Code 
 ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        int n = nums.size();
-        if(n == 2) return vector<int>{0, 1};
-        unordered_map<int, int> m;
-
-        for(int i = 0; i < n; ++i) {
-            int c = target - nums[i];
-            if(m.find(c) != m.end()) {
-                return vector<int>{m[target-nums[i]], i};
-            }
-            m.emplace(nums[i], i);
+        unordered_map<int, int> hmap;
+        for(int i = 0; i < nums.size(); ++i) {
+            if(hmap.count(target-nums[i]) != 0) return {i, hmap[target-nums[i]]};
+            hmap[nums[i]] = i;
         }
-        return vector<int>{0, 1};
+        return {0,0};
     }
 };
 ```
