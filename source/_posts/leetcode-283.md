@@ -42,8 +42,8 @@ Note that you must do this in-place without making a copy of the array.
 
 ### LeetCode Result
 
-- Runtime: 0 ms
-- Memory Usage: 9 MB 
+- Runtime: 36 ms
+- Memory Usage: 19.3 MB 
 - https://leetcode.com/submissions/detail/538798757/
 
 ## Code
@@ -51,12 +51,9 @@ Note that you must do this in-place without making a copy of the array.
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
-        for(int i = 0, j = 0; j < nums.size(); ++j) {
-            if(nums[i] != 0) {
-                ++i;
-            } else if(nums[i] == 0 && nums[j] != 0) {
-                swap(nums[i], nums[j]);
-                ++i;
+        for(int last = 0, cur = 0; cur < nums.size(); ++cur) {
+            if(nums[cur] != 0) {
+                swap(nums[last++], nums[cur]);
             }
         }
     }
