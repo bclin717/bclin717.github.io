@@ -70,7 +70,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [227. Basic Calculator II]()
 
-[238. Product of Array Except Self]()
+[238. Product of Array Except Self](https://bclin.tw/2022/05/26/leetcode-238)
 
 [287. Find the Duplicate Number]()
 
