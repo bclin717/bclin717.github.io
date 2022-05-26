@@ -10,10 +10,6 @@ Graduated from NCTU with a master's degree in Computer Science.
 - Cyber Security
 - Software Testing / Quality Assurance
 
-# 經歷
-
-- 趨勢科技 Trend Micro - Software Engineer in Test (System Kernel)
-
 ## 大學時代兼職 Part-time
 - 百俐開發有限公司 - 專案經理 
 - 台灣香菁生技股份有限公司 - 資訊部經理
@@ -22,7 +18,6 @@ Graduated from NCTU with a master's degree in Computer Science.
 
 ## 實習 Internship 
 - PMC 財團法人精密機械研究中心－智慧整合開發部程式員  
-
 
 # 興趣
 - 寫程式 
@@ -54,6 +49,7 @@ Graduated from NCTU with a master's degree in Computer Science.
 - 下棋
   - 西洋棋
   - 象棋
+  - 圍棋
 
 - 相聲、布袋戲
 - 練字
@@ -70,18 +66,18 @@ Graduated from NCTU with a master's degree in Computer Science.
 - CoolerMaster NR200P
     - 上風扇：Thermalright TL-C12 PRO x2
     - 下風扇：Noctua NF-A12x25 PWM SSO2 x2
-- Realforce TKL / R2TL-US5-BK - 2019 / 05 / 05 
-- Razer Viper Ultimate - 2020 / 10 / 19
-- BenQ Zowie XL2546 - 2020 / 09 / 15
-- Sennheiser GSP 370 - 2020 / 12 / 06 
+- LeoPold FC750R BT 紅軸 - 2022 / 05 / 09
+- Logitech G PRO X SUPERLIGHT - 2022 / 04 / 20
+- Gigabyte M27q x2 - 2022 / 04 / 20
+- Razor BlackShark v2 pro - 2022 / 05 / 24
+- BenQ ScreenBar Halo - 2022 / 04 / 21
 
 ## 其他設備
-- 公司鍵盤：Leopold FC750R PD - 2021 / 02 / 14
-- 公司耳機：Philips Fidelio X2HR - 2018 / 08 / 20 
+- 工作用滑鼠： Logitech MX Master 3 for Mac - 2022 / 04 /20s
 - 無線耳機： Sony WF-1000XM4 - 2021 / 08 / 25 
-- 手機：Google Pixel 6 - 2021 / 11 / 02
+- 手機：Apple iPhone 13 Pro - 2022 / 03 / 01
 - 筆電：Lenovo ThinkPad x1 Carbon 2017 - 2017 / 08 
-- 公司筆電：Lenovo ThinkPad x1 Carbon 2020 
+- 公司筆電：Macbook Pro 16 2021 
 
 ## 相機
 - 相機：Pentax K-5 II - 2014 / 05 
@@ -96,7 +92,8 @@ Graduated from NCTU with a master's degree in Computer Science.
   - Able Carry Daily Backpack XPAC - 2020 / 07 / 24
   - Incase Reform Tensaerlite 13 - 2019 / 01 / 28 
   - Incase Reform Sling Pack 13
-
+- 登山背包：
+  - Mystery Ranch Scree 32 - 2021 
 
 ## 咖啡
 - 磨豆機：Fellow Ode - 2021 / 09 / 01 
