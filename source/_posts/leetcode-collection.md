@@ -86,7 +86,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 ### Hard
 
-[41. First Missing Positive]()
+[41. First Missing Positive](https://bclin.tw/2022/05/30/leetcode-41/)
 
 [76. Minimum Window Substring]()
 
