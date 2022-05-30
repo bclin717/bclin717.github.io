@@ -9,7 +9,7 @@ hidden: false
 top_image: https://i.imgur.com/quzV9gR.jpg
 ---
 
-這篇文章會記錄所有 LeetCode 刷題系列文章，因為在首頁顯示出這些文章頗有洗版之感。
+這篇文章會記錄所有 LeetCode 刷題系列文章。
 
 # Top Interview Questions
 
@@ -78,7 +78,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [334. Increasing Triplet Subsequence]()
 
-[340. Longest Substring with At Most K Distinct Characters]()
+[340. Longest Substring with At Most K Distinct Characters](https://bclin.tw/2022/05/30/leetcode-340/)
 
 [344. Reverse String](https://bclin.tw/2022/01/10/leetcode-344/)
 
