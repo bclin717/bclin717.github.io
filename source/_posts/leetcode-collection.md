@@ -72,13 +72,13 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [238. Product of Array Except Self](https://bclin.tw/2022/05/26/leetcode-238)
 
-[287. Find the Duplicate Number]()
+[287. Find the Duplicate Number](https://bclin.tw/2022/05/31/leetcode-287)
 
 [289. Game of Life]()
 
 [334. Increasing Triplet Subsequence]()
 
-[340. Longest Substring with At Most K Distinct Characters](https://bclin.tw/2022/05/30/leetcode-340/)
+[340. Longest Substring with At Most K Distinct Characters](https://bclin.tw/2022/05/31/leetcode-340/)
 
 [344. Reverse String](https://bclin.tw/2022/01/10/leetcode-344/)
 
