@@ -115,6 +115,8 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [21. Merge Two Sorted List]()
 
+[138. Copy List with Random Pointer](https://bclin.tw/2022/06/06/leetcode-138/)
+
 [328. Odd Even Linked List]()
 
 ### Hard
