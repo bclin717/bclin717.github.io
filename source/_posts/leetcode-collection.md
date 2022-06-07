@@ -113,7 +113,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [19. Remove Nth Node From End of List](https://bclin.tw/2021/07/30/leetcode-19/)
 
-[21. Merge Two Sorted List]()
+[21. Merge Two Sorted List](https://bclin.tw/2021/08/02/leetcode-21/)
 
 [138. Copy List with Random Pointer](https://bclin.tw/2022/06/06/leetcode-138/)
 
