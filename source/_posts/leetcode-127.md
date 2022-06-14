@@ -2,7 +2,7 @@
 title: 【LeetCode】127. Word Ladder 解題報告
 categories:
   - LeetCode
-date: 2022-06-14 16:38:56
+date: 2022-06-14 16:20:56
 tags: LeetCode
 hidden: true
 photos:
@@ -68,11 +68,10 @@ Given two words, `beginWord` and `endWord`, and a dictionary `wordList`, return 
 ## 效能
 
 ### Complexity 
-- Time Complexity: O(N)
-- Space Complexity: O(1)
+- Time Complexity: O(M^2xN), where M is the length of each word and N is the total number of words in the input word list.
+- Space Complexity: O(M^2xN)
 
 ### LeetCode Result
-
 - Runtime: 165 ms
 - Memory Usage: 33.5 MB 
 - https://leetcode.com/submissions/detail/721909949/

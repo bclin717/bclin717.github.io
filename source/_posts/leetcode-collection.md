@@ -127,7 +127,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 ### Easy
 
-[94. Binary Tree Inorder Traversal]()
+[94. Binary Tree Inorder Traversal](https://bclin.tw/2022/01/11/tree-traversal/)
 
 [101. Symmetric Tree]()
 
@@ -145,13 +145,13 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [116. Populating Next Right Pointers in Each Node](https://bclin.tw/2022/01/11/leetcode-116/)
 
-[130. Surrounded Regions]()
+[130. Surrounded Regions](https://bclin.tw/2022/06/14/leetcode-130/)
 
 [200. Number of Islands]()
 
 [207. Course Schedule](https://bclin.tw/2022/01/18/leetcode-207/)
 
-[210. Course Schedule II]()
+[210. Course Schedule II](https://bclin.tw/2022/01/18/leetcode-207/)
 
 [230. Kth Smallest Element in a BST]()
 
