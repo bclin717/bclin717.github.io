@@ -38,7 +38,7 @@ A substring is a contiguous sequence of characters within the string.
 ## Constraints:
 > - m == s.length
 > - n == t.length
-> - 1 <= m, n <= 105
+> - 1 <= m, n <= 10^5
 > - s and t consist of uppercase and lowercase English letters.
 
 # Solution: Map + Sliding Window

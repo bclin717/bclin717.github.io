@@ -163,7 +163,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [124. Binary Tree Maximum Path Sum]()
 
-[127. Word Ladder]()
+[127. Word Ladder](https://bclin.tw/2022/06/14/leetcode-127/)
 
 [269. Alien Dictionary]()
 
