@@ -99,7 +99,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [141. Linked List Cycle](https://bclin.tw/2022/06/19/leetcode-141/)
 
-[160. Intersection of Two Linked Lists]()
+[160. Intersection of Two Linked Lists](https://bclin.tw/2022/06/19/leetcode-160/)
 
 [206. Reverse Linked List]()
 
