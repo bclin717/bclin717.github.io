@@ -101,7 +101,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [160. Intersection of Two Linked Lists](https://bclin.tw/2022/06/19/leetcode-160/)
 
-[206. Reverse Linked List]()
+[206. Reverse Linked List](https://bclin.tw/2022/06/19/leetcode-206)
 
 [234. Palindrome Linked List]()
 
