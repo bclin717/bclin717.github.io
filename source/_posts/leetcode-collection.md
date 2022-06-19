@@ -76,7 +76,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [289. Game of Life]()
 
-[334. Increasing Triplet Subsequence]()
+[334. Increasing Triplet Subsequence](https://bclin.tw/2022/06/19/leetcode-334)
 
 [340. Longest Substring with At Most K Distinct Characters](https://bclin.tw/2022/05/31/leetcode-340/)
 
@@ -97,7 +97,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 ### Easy 
 [21. Merge Two Sorted Lists](https://bclin.tw/2021/08/02/leetcode-21/)
 
-[141. Linked List Cycle]()
+[141. Linked List Cycle](https://bclin.tw/2022/06/19/leetcode-141/)
 
 [160. Intersection of Two Linked Lists]()
 
