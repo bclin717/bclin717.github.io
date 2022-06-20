@@ -117,7 +117,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [138. Copy List with Random Pointer](https://bclin.tw/2022/06/06/leetcode-138/)
 
-[328. Odd Even Linked List]()
+[328. Odd Even Linked List](https://bclin.tw/2022/06/20/leetcode-328/)
 
 ### Hard
 
