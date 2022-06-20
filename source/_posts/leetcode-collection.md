@@ -103,7 +103,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [206. Reverse Linked List](https://bclin.tw/2022/06/19/leetcode-206)
 
-[234. Palindrome Linked List]()
+[234. Palindrome Linked List](https://bclin.tw/2022/06/20/leetcode-234)
 
 [237. Delete Node in a Linked List]()
 
