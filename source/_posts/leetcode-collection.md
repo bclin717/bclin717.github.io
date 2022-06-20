@@ -109,7 +109,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 ### Medium
 
-[2. Add Two Numbers]()
+[2. Add Two Numbers](https://bclin.tw/2022/06/20/leetcode-2/)
 
 [19. Remove Nth Node From End of List](https://bclin.tw/2021/07/30/leetcode-19/)
 
