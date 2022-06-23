@@ -46,7 +46,7 @@ Given an array of intervals where intervals[i] = [starti, endi], merge all overl
 ## 效能
 
 ### Complexity 
-- Time Complexity: O(N)
+- Time Complexity: O(NlogN)
 - Space Complexity: O(N)
 
 ### LeetCode Result
