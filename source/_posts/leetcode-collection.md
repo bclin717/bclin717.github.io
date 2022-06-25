@@ -171,8 +171,6 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 ## Backtracking
 
-### Easy
-
 ### Medium
 
 [17. Letter Combinations of a Phone Number]()
@@ -185,6 +183,18 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [79. Word Search]()
 
+[131. Palindrome Partitioning]()
+
+### Hard
+
+[10. Regular Expression Matching]()
+
+[44. Wildcard Matching]()
+
+[212. Word Search II]()
+
+[301. Remove Invalid Parentheses]()
+
 ## Sorting and Searching
 
 ### Easy
@@ -194,8 +204,6 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 [278. First Bad Version]()
 
 ### Medium
-
-[240. Search a 2D Matrix II]()
 
 [33. Search in Rotated Sorted Array]()
 
@@ -209,8 +217,15 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [215. Kth Largest Element in an Array](https://bclin.tw/2022/02/12/leetcode-215/)
 
+[240. Search a 2D Matrix II]()
+
 [347. Top K Frequent Elements]()
 
+[378. Kth Smallest Element in a Sorted Matrix]()
+
+### Hard
+
+[Median of Two Sorted Arrays]()
 
 
 ## Dynamic Programming
