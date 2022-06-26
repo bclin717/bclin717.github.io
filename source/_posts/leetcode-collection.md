@@ -177,7 +177,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [22. Generate Parentheses]()
 
-[46. Permutations]()
+[46. Permutations](https://bclin.tw/2022/06/25/leetcode-46/)
 
 [78. Subsets]()
 
