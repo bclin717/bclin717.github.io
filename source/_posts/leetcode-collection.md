@@ -131,13 +131,13 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [101. Symmetric Tree](https://bclin.tw/2022/07/03/leetcode-101/)
 
-[104. Maximum Depth of Binary Tree]()
+[104. Maximum Depth of Binary Tree](https://bclin.tw/2022/07/03/leetcode-104/)
 
-[108. Convert Sorted Array to Binary Search Tree]()
+[108. Convert Sorted Array to Binary Search Tree](https://bclin.tw/2022/07/03/leetcode-108/)
 
 ### Medium
 
-[98. Validate Binary Search Tree]()
+[98. Validate Binary Search Tree](https://bclin.tw/2022/07/03/leetcode-98/)
 
 [102. Binary Tree Level Order Traversal]()
 
