@@ -129,7 +129,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [94. Binary Tree Inorder Traversal](https://bclin.tw/2022/01/11/tree-traversal/)
 
-[101. Symmetric Tree]()
+[101. Symmetric Tree](https://bclin.tw/2022/07/03/leetcode-101/)
 
 [104. Maximum Depth of Binary Tree]()
 
