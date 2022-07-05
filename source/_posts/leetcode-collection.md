@@ -153,11 +153,11 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [210. Course Schedule II](https://bclin.tw/2022/01/18/leetcode-207/)
 
-[230. Kth Smallest Element in a BST]()
+[230. Kth Smallest Element in a BST](https://bclin.tw/2022/07/06/leetcode-230/)
 
-[236. Lowest Common Ancestor of a Binary Tree]()
+[236. Lowest Common Ancestor of a Binary Tree](https://bclin.tw/2022/07/06/leetcode-236/)
 
-[547. Number of Provinces]()
+[547. Number of Provinces](https://bclin.tw/2022/07/06/leetcode-547/)
 
 ### Hard
 
