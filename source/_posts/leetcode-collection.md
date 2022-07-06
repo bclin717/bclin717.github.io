@@ -175,7 +175,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [17. Letter Combinations of a Phone Number](https://bclin.tw/2022/07/06/leetcode-17/)
 
-[22. Generate Parentheses]()
+[22. Generate Parentheses](https://bclin.tw/2022/07/06/leetcode-22/)
 
 [46. Permutations](https://bclin.tw/2022/06/25/leetcode-46/)
 
