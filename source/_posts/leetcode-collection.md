@@ -173,7 +173,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 ### Medium
 
-[17. Letter Combinations of a Phone Number]()
+[17. Letter Combinations of a Phone Number](https://bclin.tw/2022/07/06/leetcode-17/)
 
 [22. Generate Parentheses]()
 
