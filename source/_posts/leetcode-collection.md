@@ -183,7 +183,7 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [79. Word Search](https://bclin.tw/2022/07/07/leetcode-79/)
 
-[131. Palindrome Partitioning]()
+[131. Palindrome Partitioning](https://bclin.tw/2022/07/07/leetcode-131/)
 
 ### Hard
 

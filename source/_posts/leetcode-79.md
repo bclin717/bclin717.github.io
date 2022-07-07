@@ -44,6 +44,7 @@ The word can be constructed from letters of sequentially adjacent cells, where a
 # Solution 1: Backtracking
 ## 思路 
 
+很直覺地用 DFS 做 Backtracking。
 
 ## 效能
 
