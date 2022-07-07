@@ -179,9 +179,9 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [46. Permutations](https://bclin.tw/2022/06/25/leetcode-46/)
 
-[78. Subsets]()
+[78. Subsets](https://bclin.tw/2022/07/07/leetcode-78/)
 
-[79. Word Search]()
+[79. Word Search](https://bclin.tw/2022/07/07/leetcode-79/)
 
 [131. Palindrome Partitioning]()
 
