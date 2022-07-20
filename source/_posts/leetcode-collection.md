@@ -319,4 +319,6 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [647. Palindromic Substrings](https://bclin.tw/2021/06/17/leetcode-647/)
 
+[1074. Number of Submatrices That Sum to Target](https://bclin.tw/2022/07/20/leetcode-1074)
+
 [1942. The Number of the Smallest Unoccupied Chair](https://bclin.tw/2022/02/01/leetcode-1942)
