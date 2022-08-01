@@ -323,9 +323,15 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [376. Wiggle Subsequence](https://bclin.tw/2022/07/04/leetcode-376/)
 
+[416. Partition Equal Subset Sum](https://bclin.tw/2022/07/04/leetcode-416/)
+
 [437. Path Sum III](https://bclin.tw/2022/07/04/leetcode-437/)
 
+[525. Contiguous Array](https://bclin.tw/2022/08/01/leetcode-525/)
+
 [647. Palindromic Substrings](https://bclin.tw/2021/06/17/leetcode-647/)
+
+[658. Find K Closest Elements](https://bclin.tw/2022/07/04/leetcode-658)
 
 [735. Asteroid Collision](https://bclin.tw/2021/06/17/leetcode-735/)
 
