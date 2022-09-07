@@ -341,6 +341,8 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [916. Word Subsets](https://bclin.tw/2022/08/01/leetcode-916/)
 
+[973. K Closest Points to Origin](https://bclin.tw/2022/09/07/leetcode-973/)
+
 [1074. Number of Submatrices That Sum to Target](https://bclin.tw/2022/07/20/leetcode-1074)
 
 [1942. The Number of the Smallest Unoccupied Chair](https://bclin.tw/2022/02/01/leetcode-1942)
