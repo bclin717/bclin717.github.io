@@ -8,7 +8,7 @@ top_image:
 BC Lin a.k.a. Kevin
 Graduated from NCTU with a master's degree in Computer Science.
 - Cyber Security
-- Software Testing / Quality Assurance
+- Software Testing / Software Quality Assurance
 
 ## 大學時代兼職 Part-time
 - 百俐開發有限公司 - 專案經理 
@@ -18,42 +18,6 @@ Graduated from NCTU with a master's degree in Computer Science.
 
 ## 實習 Internship 
 - PMC 財團法人精密機械研究中心－智慧整合開發部程式員  
-
-# 興趣
-- 寫程式 
-    - 主寫 C/C++ 
-    - Fuzz Testing
-    - Windows Kernel 
-    
-- 運動
-    - 排球
-    - 棒球
-    - 重訓
-
-- 動漫畫
-- 電影
-- 文學
-- 日劇、美劇
-- 攝影
-  - Pentax 家
-  - [My Flickr](https://www.flickr.com/photos/37901222@N04/)
-- 魔術
-- 語言
-    - 英文 TOEIC 810
-    - 日文 JLPT N2
-    - 台語 
-
-- 武術
-  - 跆拳道
-
-- 下棋
-  - 西洋棋
-  - 象棋
-  - 圍棋
-
-- 相聲、布袋戲
-- 練字
-- 沖咖啡
 
 # 生活環境
 ## 遊戲電腦： 
@@ -66,18 +30,18 @@ Graduated from NCTU with a master's degree in Computer Science.
 - CoolerMaster NR200P
     - 上風扇：Thermalright TL-C12 PRO x2
     - 下風扇：Noctua NF-A12x25 PWM SSO2 x2
-- LeoPold FC750R BT 紅軸 - 2022 / 05 / 09
+- LeoPold FC750R BT 靜音紅軸 - 2022 / 05 / 09
 - Logitech G PRO X SUPERLIGHT - 2022 / 04 / 20
 - Gigabyte M27q x2 - 2022 / 04 / 20
-- Razor BlackShark v2 pro - 2022 / 05 / 24
+- Sony INZONE H7 - 2022 / 07 / 13
 - BenQ ScreenBar Halo - 2022 / 04 / 21
 
 ## 其他設備
 - 工作用滑鼠： Logitech MX Master 3 for Mac - 2022 / 04 /20s
 - 無線耳機： Sony WF-1000XM4 - 2021 / 08 / 25 
-- 手機：Apple iPhone 13 Pro - 2022 / 03 / 01
+- 手機：Apple iPhone 14 Pro - 2022 / 09 / 16
 - 筆電：Lenovo ThinkPad x1 Carbon 2017 - 2017 / 08 
-- 公司筆電：Macbook Pro 16 2021 
+- 公司筆電：Macbook Pro 16 2021, Macbook Pro 13 2013
 
 ## 相機
 - 相機：Pentax K-5 II - 2014 / 05 
@@ -93,8 +57,8 @@ Graduated from NCTU with a master's degree in Computer Science.
   - Incase Reform Tensaerlite 13 - 2019 / 01 / 28 
   - Incase Reform Sling Pack 13
 - 登山背包：
-  - Mystery Ranch Scree 32 - 2021 
+  - Mystery Ranch Scree 32 - 2021 / 02
 
 ## 咖啡
 - 磨豆機：Fellow Ode - 2021 / 09 / 01 
-- 手沖壺：Fellow Stagg 600ml - 2018 / 11
+- 手沖壺：Timemore 泰摩魚 Smart 600ml - 2022 / 07 / 24
