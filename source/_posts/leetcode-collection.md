@@ -349,4 +349,4 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [2131. Longest Palindrome by Concatenating Two Letter Words](https://bclin.tw/2022/08/17/leetcode-2131)
 
-[2415. Reverse Odd Levels of Binary Tree]((https://bclin.tw/2022/09/21/leetcode-2415))
+[2415. Reverse Odd Levels of Binary Tree](https://bclin.tw/2022/09/21/leetcode-2415)
