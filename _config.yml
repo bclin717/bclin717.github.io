@@ -102,6 +102,11 @@ deploy:
   repo: https://gh_token@github.com/bclin717/bclin717.github.io.git
   branch: master
 
-theme_config:
-  darkmode: true
-  scheme: Gemini
+# hexo-hide-posts
+hide_posts:
+  filter: hidden
+  # 指定你想要传递隐藏文章的位置，比如让所有隐藏文章在存档页面可见
+  # 常见的位置有：index, tag, category, archive, sitemap, feed, etc.
+  # 留空则默认全部隐藏
+  public_generators: [tag, archive, category, sitemap]
+  noindex: false
