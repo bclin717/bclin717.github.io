@@ -5,7 +5,8 @@ categories:
 date: 2018-06-01 20:56:21
 updated: 2018-06-01 20:56:21
 tags: 
-top_image: https://cdn-ak.f.st-hatena.com/images/fotolife/e/eiki_okuma/20180521/20180521164112.jpg
+photos:
+  - https://cdn-ak.f.st-hatena.com/images/fotolife/e/eiki_okuma/20180521/20180521164112.jpg
 ---
 
 今天，要來介紹一下日本最具代表性的軟體開發手法。

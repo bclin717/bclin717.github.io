@@ -5,7 +5,8 @@ categories:
 date: 2020-11-06 17:25:40
 tags:
 excerpt: 平面國，一個經典科幻故事。
-top_image: https://i.imgur.com/iS4UGFZ.jpg
+photos:
+  - https://i.imgur.com/iS4UGFZ.jpeg
 ---
 
 這幾天看了 Edwin A. Abbott 的名作《平面國》，這部薄薄的中篇小說寫成於 1884 年，描寫一個虛構的二維國家：平面國，並藉由正方形的第一人稱敘事，帶領讀者穿梭於不同維度並揭開平面國的真相。

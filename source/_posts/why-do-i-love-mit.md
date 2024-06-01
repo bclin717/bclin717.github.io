@@ -4,7 +4,8 @@ categories:
   - 日常筆記
 date: 2018-05-14 06:04:50
 tags:
-top_image: https://imgur.com/GWrdwsj.jpg
+photos:
+  - https://imgur.com/GWrdwsj.jpg
 ---
 前幾天在波士頓 Downtown Crossing 的咖啡廳，遇到一名外國人，他有一個中文名：羅嘯天。<!-- more -->我和他聊了許多，他說：「波士頓就是三樣東西多：大學、學生、咖啡。」是的，在波士頓有五大名校，分別是 Harvard University（哈佛大學）、MIT（Massachusetts Institute of Technology，麻省理工學院）、Tufts University（塔夫茨大學）、Brandeis University（布蘭戴斯大學），Boston College（波士頓學院）。另外還有 Boston University（波士頓大學）、Northeastern University（東北大學）、Berklee College of Music（伯克利音樂學院） ... 等等，一個小地區（其實也不小）有這麼多大學，可見波士頓是一個教育學術氣息濃厚的地方。
 

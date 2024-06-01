@@ -1,7 +1,7 @@
 ---
 title: About BC.Lin
-top_image:
-    - "/images/banner-about.jpg"
+photos:
+  - "/images/banner-about.jpg"
 ---
 
 # Who am I ? 

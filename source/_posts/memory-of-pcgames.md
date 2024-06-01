@@ -4,7 +4,8 @@ categories:
   - 遊戲介紹
 date: 2014-12-11 21:24:14
 tags:
-top_image: https://imgur.com/Vypokn1.jpg
+photos:
+  - https://imgur.com/Vypokn1.jpg
 ---
 
 今天突然有點神經質，想寫一篇文章回味過去玩過的遊戲，在十到十五年前那樣資訊封閉的時代，相信大家對於「電子遊戲」應該都有共同回憶。

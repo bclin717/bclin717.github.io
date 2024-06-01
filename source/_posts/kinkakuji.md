@@ -6,7 +6,8 @@ categories:
   - 讀書筆記
 date: 2018-10-30 09:27:40
 tags:
-top_image: https://imgur.com/wNrPcSE.jpg
+photos:
+  - https://imgur.com/wNrPcSE.jpg
 ---
 
 

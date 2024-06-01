@@ -6,7 +6,8 @@ date: 2021-08-17 22:01:00
 top: true
 tags: LeetCode
 hidden: false
-top_image: https://i.imgur.com/quzV9gR.jpg
+photos:
+  - https://i.imgur.com/quzV9gR.jpg
 ---
 
 這篇文章會記錄所有 LeetCode 刷題系列文章。

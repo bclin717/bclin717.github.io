@@ -4,7 +4,8 @@ categories:
   - 讀書筆記
 date: 2020-02-16 19:10:00
 tags:
-top_image: https://i.imgur.com/bHyCBek.jpg
+photos:
+  - https://i.imgur.com/bHyCBek.jpg
 ---
 # 前言
 近來武漢肺炎一事沸沸揚揚，時至今日，我們依然奮力地抵抗病毒給人類帶來的死亡，卻也依然讓它帶走了許多無辜的生命。在歷史上，人類與疾病的戰鬥從未停止過，而病菌同時也是文明發展的關鍵因素之一。在這樣的防疫時刻，閱讀卡繆的《鼠疫》再應景不過了。

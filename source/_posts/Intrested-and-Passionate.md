@@ -4,7 +4,8 @@ categories:
   - 日常筆記
 date: 2019-11-24 00:20
 tags:
-top_image: https://i.imgur.com/iC91sMD.png
+photos:
+  - https://i.imgur.com/iC91sMD.png
 ---
 
 最近一直在思考一件事情，就是做研究，僅僅有興趣是足夠的嗎？

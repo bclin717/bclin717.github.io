@@ -6,7 +6,8 @@ categories:
   - 讀書筆記
 date: 2019-02-27 00:56:16
 tags:
-top_image: https://imgur.com/6Xru8xE.jpg
+photos:
+  - https://imgur.com/6Xru8xE.jpg
 ---
 前陣子在書展看到了李敖的情書集，不知是什麼衝動使然，一眼就決定買下。一來可能是想要懷念大師風采，一來是想知道半世紀前的大師，是如何追求有靈性的女子。
 <!-- more -->
