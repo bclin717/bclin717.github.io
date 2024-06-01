@@ -347,6 +347,8 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 [1074. Number of Submatrices That Sum to Target](https://bclin.tw/2022/07/20/leetcode-1074)
 
+[1940. Longest Common Subsequence Between Sorted Arrays](https://bclin.tw/2024/06/01/leetcode-1940)
+
 [1942. The Number of the Smallest Unoccupied Chair](https://bclin.tw/2022/02/01/leetcode-1942)
 
 [2131. Longest Palindrome by Concatenating Two Letter Words](https://bclin.tw/2022/08/17/leetcode-2131)
