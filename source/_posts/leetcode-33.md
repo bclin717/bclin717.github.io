@@ -5,7 +5,6 @@ categories:
 date: 2021-08-03 17:30:56
 tags: LeetCode
 hidden: true
-hidden: true
 photos:
     - https://i.imgur.com/c0LQYpw.jpg
 ---
