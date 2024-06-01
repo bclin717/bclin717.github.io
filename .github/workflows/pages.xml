@@ -2,8 +2,9 @@ name: Pages
 
 on:
   push:
-    branches:
-      - main  # default branch
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "src" ]
 
 jobs:
   build:
