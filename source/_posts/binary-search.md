@@ -10,7 +10,7 @@ photos:
 
 Binary Search 大概是很多人學習演算法的入門題（或是 Bubble Sort？），Binary Search 的觀念很簡單，透過每次減半搜尋空間來達到 O(logN) 的時間複雜度，但其細節和變形的用法確非常多。
 實作上只要一個邊界設錯，結果就會大不同。刷題的時候總是讓人覺得很煩燥。但只要題目要求搜尋要比 O(N) 快，幾乎是肯定一定要實作 Binary Search 了。
-
+<!-- more -->
 # 基本用法
 
 最基礎的 Binary Search 用法，程式碼如下。

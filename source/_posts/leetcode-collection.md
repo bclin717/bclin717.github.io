@@ -11,6 +11,8 @@ top_image: https://i.imgur.com/quzV9gR.jpg
 
 這篇文章會記錄所有 LeetCode 刷題系列文章。
 
+<!-- more -->
+
 # Top Interview Questions
 
 ## Array & Strings
