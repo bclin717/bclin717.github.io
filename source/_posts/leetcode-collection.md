@@ -319,6 +319,8 @@ photos:
 
 [221. Maximal Square](https://bclin.tw/2022/08/01/leetcode-221/)
 
+[276. Paint Fence](https://bclin.tw/2024/06/09/leetcode-276/)
+
 [324. Wiggle Sort](https://bclin.tw/2022/03/02/leetcode-324/)
 
 [362. Design Hit Counter](https://bclin.tw/2022/08/01/leetcode-362/)
